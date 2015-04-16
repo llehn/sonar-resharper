@@ -1,0 +1,7 @@
+<rules>
+  <rule key="UnusedMember.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type or member is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Non-private accessibility]]></description>
+  </rule>
+</rules>

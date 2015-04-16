@@ -1,0 +1,283 @@
+<rules>
+  <rule key="AssignToConstant">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Assignment to constant]]></name>
+    <description><![CDATA[Assignment to constant]]></description>
+  </rule>
+  <rule key="AssignToImplicitGlobalInFunctionScope">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assignment to an implicitly declared global variable]]></name>
+    <description><![CDATA[Assignment to an implicitly declared global variable]]></description>
+  </rule>
+  <rule key="AssignedValueIsNeverUsed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assigned value is never used]]></name>
+    <description><![CDATA[Assigned value is never used]]></description>
+  </rule>
+  <rule key="AssignmentInConditionExpression">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assignment to a variable inside a conditional statement]]></name>
+    <description><![CDATA[Assignment to a variable inside a conditional statement]]></description>
+  </rule>
+  <rule key="BlockScopeRedeclaration">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Redeclaration of let/const]]></name>
+    <description><![CDATA[Redeclaration of let/const]]></description>
+  </rule>
+  <rule key="CallerCalleeUsing">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Using of 'arguments.caller' and 'arguments.callee']]></name>
+    <description><![CDATA[Using of 'arguments.caller' and 'arguments.callee']]></description>
+  </rule>
+  <rule key="CallerCalleeUsingError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Using of 'arguments.caller' and 'arguments.callee' in 'strict mode']]></name>
+    <description><![CDATA[Using of 'arguments.caller' and 'arguments.callee' in 'strict mode']]></description>
+  </rule>
+  <rule key="CheckNamespace">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Namespace does not correspond to file location]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Namespace+does+not+correspond+to+file+location">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="ClosureOnModifiedVariable">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Closure on a variable modified in loop of outer scope]]></name>
+    <description><![CDATA[Closure on a variable modified in loop of outer scope]]></description>
+  </rule>
+  <rule key="CoercedEqualsUsing">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Using of coerced equality: Using of coerced equality operator]]></name>
+    <description><![CDATA[Using of coerced equality: Using of coerced equality operator]]></description>
+  </rule>
+  <rule key="CoercedEqualsUsingWithNullUndefined">
+    <priority>INFO</priority>
+    <name><![CDATA[Using of coerced equality: Using of coerced equality operator with 'null' or 'undefined']]></name>
+    <description><![CDATA[Using of coerced equality: Using of coerced equality operator with 'null' or 'undefined']]></description>
+  </rule>
+  <rule key="ConditionIsAlwaysConst">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Condition is always constant]]></name>
+    <description><![CDATA[Condition is always constant]]></description>
+  </rule>
+  <rule key="ConditionalTernaryEqualBranch">
+    <priority>MAJOR</priority>
+    <name><![CDATA['?:' expression has identical true and false branches]]></name>
+    <description><![CDATA['?:' expression has identical true and false branches]]></description>
+  </rule>
+  <rule key="ConstructorCallNotUsed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Constructor call is not used or possibly used for side-effects]]></name>
+    <description><![CDATA[Constructor call is not used or possibly used for side-effects]]></description>
+  </rule>
+  <rule key="DeclarationHides">
+    <priority>INFO</priority>
+    <name><![CDATA[Declaration hides another declaration from an outer scope]]></name>
+    <description><![CDATA[Declaration hides another declaration from an outer scope]]></description>
+  </rule>
+  <rule key="DeletingNonQualifiedReference">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Calling 'delete' on non-qualified identifier in 'strict mode']]></name>
+    <description><![CDATA[Calling 'delete' on non-qualified identifier in 'strict mode']]></description>
+  </rule>
+  <rule key="DuplicatingLocalDeclaration">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate local declaration]]></name>
+    <description><![CDATA[Duplicate local declaration]]></description>
+  </rule>
+  <rule key="DuplicatingParameterDeclarationError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Duplicate parameter declaration in 'strict mode']]></name>
+    <description><![CDATA[Duplicate parameter declaration in 'strict mode']]></description>
+  </rule>
+  <rule key="DuplicatingPropertyDeclaration">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate property declaration]]></name>
+    <description><![CDATA[Duplicate property declaration]]></description>
+  </rule>
+  <rule key="DuplicatingPropertyDeclarationError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Duplicate property declaration in 'strict mode']]></name>
+    <description><![CDATA[Duplicate property declaration in 'strict mode']]></description>
+  </rule>
+  <rule key="DuplicatingSwitchLabel">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate switch label]]></name>
+    <description><![CDATA[Duplicate switch label]]></description>
+  </rule>
+  <rule key="ElidedTrailingElement">
+    <priority>MAJOR</priority>
+    <name><![CDATA[A trailing element of an array is elided]]></name>
+    <description><![CDATA[A trailing element of an array is elided]]></description>
+  </rule>
+  <rule key="EmptyObjectPropertyDeclaration">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Object property declaration is expected]]></name>
+    <description><![CDATA[Object property declaration is expected]]></description>
+  </rule>
+  <rule key="ErrorInXmlDocReference">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Error in Xml doc comment reference]]></name>
+    <description><![CDATA[Error in Xml doc comment reference]]></description>
+  </rule>
+  <rule key="Es6Feature">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[ECMAScript 6 feature usage when in ES 5 or lower]]></name>
+    <description><![CDATA[ECMAScript 6 feature usage when in ES 5 or lower]]></description>
+  </rule>
+  <rule key="EvalArgumentsNameError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Using of 'eval'/'arguments' name in 'strict mode']]></name>
+    <description><![CDATA[Using of 'eval'/'arguments' name in 'strict mode']]></description>
+  </rule>
+  <rule key="ExpressionIsAlwaysConst">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Expression is always constant]]></name>
+    <description><![CDATA[Expression is always constant]]></description>
+  </rule>
+  <rule key="FunctionParameterNamedArguments">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Parameter name 'arguments' clashes with pre-defined JS function-scope variable]]></name>
+    <description><![CDATA[Parameter name 'arguments' clashes with pre-defined JS function-scope variable]]></description>
+  </rule>
+  <rule key="FunctionUsedOutOfScope">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Function is used outside of scope which it is declared]]></name>
+    <description><![CDATA[Function is used outside of scope which it is declared]]></description>
+  </rule>
+  <rule key="FunctionsUsedBeforeDeclared">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Function is used before it is declared]]></name>
+    <description><![CDATA[Function is used before it is declared]]></description>
+  </rule>
+  <rule key="HeuristicallyUnreachableCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Heuristically unreachable code]]></name>
+    <description><![CDATA[Heuristically unreachable code]]></description>
+  </rule>
+  <rule key="InconsistentFunctionReturns">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Inconsistent function returns]]></name>
+    <description><![CDATA[Inconsistent function returns]]></description>
+  </rule>
+  <rule key="InconsistentNaming">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Inconsistent Naming]]></name>
+    <description><![CDATA[Inconsistent Naming]]></description>
+  </rule>
+  <rule key="IncorrectOperandInTypeOfComparison">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Comparison of 'typeof' expression with incorrect value]]></name>
+    <description><![CDATA[Comparison of 'typeof' expression with incorrect value]]></description>
+  </rule>
+  <rule key="InvocationOfNonFunction">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Invocation of non-function expression]]></name>
+    <description><![CDATA[Invocation of non-function expression]]></description>
+  </rule>
+  <rule key="InvokedExpressionMaybeNonFunction">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Invoked expression is not a function value]]></name>
+    <description><![CDATA[Invoked expression is not a function value]]></description>
+  </rule>
+  <rule key="JScriptErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[JavaScript Errors]]></name>
+    <description><![CDATA[JavaScript Errors]]></description>
+  </rule>
+  <rule key="JoinDeclarationAndInitializerJs">
+    <priority>MINOR</priority>
+    <name><![CDATA[Join local variable declaration and assignment]]></name>
+    <description><![CDATA[Join local variable declaration and assignment]]></description>
+  </rule>
+  <rule key="JsUnreachableCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unreachable code]]></name>
+    <description><![CDATA[Unreachable code]]></description>
+  </rule>
+  <rule key="JumpMustBeInLoop">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use 'break' or 'continue' outside of loop body]]></name>
+    <description><![CDATA[Use 'break' or 'continue' outside of loop body]]></description>
+  </rule>
+  <rule key="LValueIsExpected">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[L-value expected error]]></name>
+    <description><![CDATA[L-value expected error]]></description>
+  </rule>
+  <rule key="LabelOrSemicolonExpected">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Use of expression after break or continue]]></name>
+    <description><![CDATA[Use of expression after break or continue]]></description>
+  </rule>
+  <rule key="LocalFunctionRedefinedLater">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Local function is redefined later]]></name>
+    <description><![CDATA[Local function is redefined later]]></description>
+  </rule>
+  <rule key="SimilarExpressionsComparison">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Similar expressions comparison]]></name>
+    <description><![CDATA[Similar expressions comparison]]></description>
+  </rule>
+  <rule key="StringConcatenationToTemplateString">
+    <priority>INFO</priority>
+    <name><![CDATA[String concatenation may be converted to template string]]></name>
+    <description><![CDATA[String concatenation may be converted to template string]]></description>
+  </rule>
+  <rule key="StringLiteralWrongQuotes">
+    <priority>INFO</priority>
+    <name><![CDATA[Non-compliant quotes around string literal]]></name>
+    <description><![CDATA[Non-compliant quotes around string literal]]></description>
+  </rule>
+  <rule key="ThisInGlobalContext">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use of 'this' in global context]]></name>
+    <description><![CDATA[Use of 'this' in global context]]></description>
+  </rule>
+  <rule key="ThrowMustBeFollowedByExpression">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Expression is expected after 'throw' statement]]></name>
+    <description><![CDATA[Expression is expected after 'throw' statement]]></description>
+  </rule>
+  <rule key="UndeclaredGlobalVariableUsing">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Using of undeclared global variable]]></name>
+    <description><![CDATA[Using of undeclared global variable]]></description>
+  </rule>
+  <rule key="UnsafeCommaInObjectPropertiesList">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Trailing redundant comma in object properties list may be error]]></name>
+    <description><![CDATA[Trailing redundant comma in object properties list may be error]]></description>
+  </rule>
+  <rule key="UnusedInheritedParameter">
+    <priority>INFO</priority>
+    <name><![CDATA[Unused parameter of inherited member]]></name>
+    <description><![CDATA[Unused parameter of inherited member]]></description>
+  </rule>
+  <rule key="UnusedLocals">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused local variable of function]]></name>
+    <description><![CDATA[Unused local variable of function]]></description>
+  </rule>
+  <rule key="UnusedMember.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type or member is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedParameter">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused parameter]]></name>
+    <description><![CDATA[Unused parameter]]></description>
+  </rule>
+  <rule key="UnusedProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused property or function]]></name>
+    <description><![CDATA[Unused property or function]]></description>
+  </rule>
+  <rule key="XmlDocCommentSyntaxProblem">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Illegal syntax in XML code comment]]></name>
+    <description><![CDATA[Illegal syntax in XML code comment]]></description>
+  </rule>
+</rules>

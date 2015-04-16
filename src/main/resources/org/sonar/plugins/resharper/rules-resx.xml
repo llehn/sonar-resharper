@@ -1,0 +1,22 @@
+<rules>
+  <rule key="DuplicateResource">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate resource name]]></name>
+    <description><![CDATA[Duplicate resource name]]></description>
+  </rule>
+  <rule key="FormatStringPlaceholdersMismatch">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Format string placeholders mismatch]]></name>
+    <description><![CDATA[Format string placeholders mismatch]]></description>
+  </rule>
+  <rule key="InvalidValueType">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Resource value type is invalid]]></name>
+    <description><![CDATA[Resource value type is invalid]]></description>
+  </rule>
+  <rule key="LocalizableElement">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Element is localizable]]></name>
+    <description><![CDATA[Element is localizable]]></description>
+  </rule>
+</rules>

@@ -26,6 +26,10 @@ import org.sonar.plugins.resharper.CSharpReSharperProvider.CSharpReSharperRuleRe
 import org.sonar.plugins.resharper.CSharpReSharperProvider.CSharpReSharperSensor;
 import org.sonar.plugins.resharper.VBNetReSharperProvider.VBNetReSharperRuleRepository;
 import org.sonar.plugins.resharper.VBNetReSharperProvider.VBNetReSharperSensor;
+import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperRuleRepository;
+import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperSensor;
+import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperRuleRepository;
+import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperSensor;
 
 import java.util.List;
 import java.util.Set;
@@ -39,6 +43,10 @@ public class ReSharperPluginTest {
     assertThat(nonProperties(new ReSharperPlugin().getExtensions())).containsOnly(
       CSharpReSharperRuleRepository.class,
       CSharpReSharperSensor.class,
+      JsReSharperRuleRepository.class,
+      JsReSharperSensor.class,
+      CssReSharperRuleRepository.class,
+      CssReSharperSensor.class,
       VBNetReSharperRuleRepository.class,
       VBNetReSharperSensor.class);
 

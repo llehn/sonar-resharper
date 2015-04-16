@@ -1,0 +1,202 @@
+<rules>
+  <rule key="InconsistentNaming">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Inconsistent Naming]]></name>
+    <description><![CDATA[Inconsistent Naming]]></description>
+  </rule>
+  <rule key="MemberCanBeInternal">
+    <priority>INFO</priority>
+    <name><![CDATA[Member or type can be made internal(friend)]]></name>
+    <description><![CDATA[Member or type can be made internal(friend)]]></description>
+  </rule>
+  <rule key="UnusedMember.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type or member is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMember.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type or member is never used: Private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Private accessibility]]></description>
+  </rule>
+  <rule key="XAMLErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[XAML Errors]]></name>
+    <description><![CDATA[XAML Errors]]></description>
+  </rule>
+  <rule key="XMLErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[XML Errors]]></name>
+    <description><![CDATA[XML Errors]]></description>
+  </rule>
+  <rule key="XMLWarnings">
+    <priority>MAJOR</priority>
+    <name><![CDATA[XML Warnings]]></name>
+    <description><![CDATA[XML Warnings]]></description>
+  </rule>
+  <rule key="Xaml.BindingWithContextNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unresolved binding path when DataContext is known]]></name>
+    <description><![CDATA[Unresolved binding path when DataContext is known]]></description>
+  </rule>
+  <rule key="Xaml.BindingWithoutContextNotResolved">
+    <priority>INFO</priority>
+    <name><![CDATA[Unresolved binding path when DataContext is unknown]]></name>
+    <description><![CDATA[Unresolved binding path when DataContext is unknown]]></description>
+  </rule>
+  <rule key="Xaml.ConstructorWarning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Constructor not resolved]]></name>
+    <description><![CDATA[Constructor not resolved]]></description>
+  </rule>
+  <rule key="Xaml.DependencyPropertyResolveError">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Dependency property descriptor field missing]]></name>
+    <description><![CDATA[Dependency property descriptor field missing]]></description>
+  </rule>
+  <rule key="Xaml.DuplicateStyleSetter">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate style property/event setter]]></name>
+    <description><![CDATA[Duplicate style property/event setter]]></description>
+  </rule>
+  <rule key="Xaml.DynamicResourceError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[{DynamicResource} can only be used with dependency property]]></name>
+    <description><![CDATA[{DynamicResource} can only be used with dependency property]]></description>
+  </rule>
+  <rule key="Xaml.ElementNameReferenceNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Element name reference not resolved]]></name>
+    <description><![CDATA[Element name reference not resolved]]></description>
+  </rule>
+  <rule key="Xaml.IgnoredPathHighlighting">
+    <priority>INFO</priority>
+    <name><![CDATA[Ignored path]]></name>
+    <description><![CDATA[Ignored path]]></description>
+  </rule>
+  <rule key="Xaml.IndexOutOfGridDefinition">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Grid element column/row index is out of grid definition range]]></name>
+    <description><![CDATA[Grid element column/row index is out of grid definition range]]></description>
+  </rule>
+  <rule key="Xaml.InvalidMemberType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Member of invalid type]]></name>
+    <description><![CDATA[Member of invalid type]]></description>
+  </rule>
+  <rule key="Xaml.InvalidResourceTargetType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[XAML style of invalid target type]]></name>
+    <description><![CDATA[XAML style of invalid target type]]></description>
+  </rule>
+  <rule key="Xaml.InvalidResourceType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[XAML resource of invalid type]]></name>
+    <description><![CDATA[XAML resource of invalid type]]></description>
+  </rule>
+  <rule key="Xaml.InvalidType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Object/markup extension of invalid type]]></name>
+    <description><![CDATA[Object/markup extension of invalid type]]></description>
+  </rule>
+  <rule key="Xaml.LanguageLevel">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[XAML language level error]]></name>
+    <description><![CDATA[XAML language level error]]></description>
+  </rule>
+  <rule key="Xaml.MappedPathHighlighting">
+    <priority>INFO</priority>
+    <name><![CDATA[Mapped path]]></name>
+    <description><![CDATA[Mapped path]]></description>
+  </rule>
+  <rule key="Xaml.MissingGridIndex">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Missing grid column/row setter for non-first child]]></name>
+    <description><![CDATA[Missing grid column/row setter for non-first child]]></description>
+  </rule>
+  <rule key="Xaml.PathError">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Path error]]></name>
+    <description><![CDATA[Path error]]></description>
+  </rule>
+  <rule key="Xaml.RedundantAttachedProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Remove redundant attached property setter]]></name>
+    <description><![CDATA[Remove redundant attached property setter]]></description>
+  </rule>
+  <rule key="Xaml.RedundantCollectionProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant empty collection property setter]]></name>
+    <description><![CDATA[Redundant empty collection property setter]]></description>
+  </rule>
+  <rule key="Xaml.RedundantFreezeAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant 'Freeze' attribute]]></name>
+    <description><![CDATA[Redundant 'Freeze' attribute]]></description>
+  </rule>
+  <rule key="Xaml.RedundantGridDefinitions">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Single grid row/column definition is redundant]]></name>
+    <description><![CDATA[Single grid row/column definition is redundant]]></description>
+  </rule>
+  <rule key="Xaml.RedundantGridSpan">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Single-cell grid column/row span is redundant]]></name>
+    <description><![CDATA[Single-cell grid column/row span is redundant]]></description>
+  </rule>
+  <rule key="Xaml.RedundantModifiersAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant modifiers attribute]]></name>
+    <description><![CDATA[Redundant modifiers attribute]]></description>
+  </rule>
+  <rule key="Xaml.RedundantNameAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant name attribute]]></name>
+    <description><![CDATA[Redundant name attribute]]></description>
+  </rule>
+  <rule key="Xaml.RedundantNamespaceAlias">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant namespace alias]]></name>
+    <description><![CDATA[Redundant namespace alias]]></description>
+  </rule>
+  <rule key="Xaml.RedundantPropertyTypeQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant property type qualifier]]></name>
+    <description><![CDATA[Redundant property type qualifier]]></description>
+  </rule>
+  <rule key="Xaml.RedundantResource">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant resource]]></name>
+    <description><![CDATA[Redundant resource]]></description>
+  </rule>
+  <rule key="Xaml.RedundantStyledValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Property value is equal to style-provided]]></name>
+    <description><![CDATA[Property value is equal to style-provided]]></description>
+  </rule>
+  <rule key="Xaml.RoutedEventResolveError">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Routed event descriptor field missing]]></name>
+    <description><![CDATA[Routed event descriptor field missing]]></description>
+  </rule>
+  <rule key="Xaml.StaticResourceNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Static resource not resolved]]></name>
+    <description><![CDATA[Static resource not resolved]]></description>
+  </rule>
+  <rule key="Xaml.StyleInvalidTargetType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Style target type is not convertible to base type]]></name>
+    <description><![CDATA[Style target type is not convertible to base type]]></description>
+  </rule>
+  <rule key="Xaml.XKeyAttributeDisallowed">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[x:Key is allowed for resources and dictionary elements only]]></name>
+    <description><![CDATA[x:Key is allowed for resources and dictionary elements only]]></description>
+  </rule>
+  <rule key="Xaml.XamlRelativeSourceDefaultModeWarningHighlighting">
+    <priority>MAJOR</priority>
+    <name><![CDATA[RelativeSourceMode is not set explicitly]]></name>
+    <description><![CDATA[RelativeSourceMode is not set explicitly]]></description>
+  </rule>
+</rules>

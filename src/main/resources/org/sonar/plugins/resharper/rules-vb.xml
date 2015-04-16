@@ -1,0 +1,875 @@
+<rules>
+  <rule key="AccessToDisposedClosure">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Access to disposed closure]]></name>
+    <description><![CDATA[Access to disposed closure]]></description>
+  </rule>
+  <rule key="AccessToForEachVariableInClosure">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Access to foreach variable in closure]]></name>
+    <description><![CDATA[Access to foreach variable in closure]]></description>
+  </rule>
+  <rule key="AccessToModifiedClosure">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Access to modified closure]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Access+to+modified+closure">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="AnnotationConflictInHierarchy">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Annotation conflict in hierarchy]]></name>
+    <description><![CDATA[Annotation conflict in hierarchy]]></description>
+  </rule>
+  <rule key="AnnotationRedundancyAtValueType">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Nullable attribute usage with declaration having value or void type]]></name>
+    <description><![CDATA[Nullable attribute usage with declaration having value or void type]]></description>
+  </rule>
+  <rule key="AnnotationRedundancyInHierarchy">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Annotation duplicate in hierarchy]]></name>
+    <description><![CDATA[Annotation duplicate in hierarchy]]></description>
+  </rule>
+  <rule key="AutoPropertyCanBeMadeGetOnly.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Auto-property can be made get-only: Non-private accessibility]]></name>
+    <description><![CDATA[Auto-property can be made get-only: Non-private accessibility]]></description>
+  </rule>
+  <rule key="AutoPropertyCanBeMadeGetOnly.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Auto-property can be made get-only: Private accessibility]]></name>
+    <description><![CDATA[Auto-property can be made get-only: Private accessibility]]></description>
+  </rule>
+  <rule key="BaseMethodCallWithDefaultParameter">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Call to base member with implicit default parameters]]></name>
+    <description><![CDATA[Call to base member with implicit default parameters]]></description>
+  </rule>
+  <rule key="BaseObjectEqualsIsObjectEquals">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Call to 'base.Equals(...)' is reference equality]]></name>
+    <description><![CDATA[Call to 'base.Equals(...)' is reference equality]]></description>
+  </rule>
+  <rule key="BaseObjectGetHashCodeCallInGetHashCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Overriden GetHashCode calls base 'Object.GetHashCode()']]></name>
+    <description><![CDATA[Overriden GetHashCode calls base 'Object.GetHashCode()']]></description>
+  </rule>
+  <rule key="CanBeReplacedWithTryCastAndCheckForNull">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type check and casts can be replaced with try cast]]></name>
+    <description><![CDATA[Type check and casts can be replaced with try cast]]></description>
+  </rule>
+  <rule key="CheckForReferenceEqualityInstead.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
+    <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+  </rule>
+  <rule key="CheckForReferenceEqualityInstead.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
+    <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+  </rule>
+  <rule key="CheckNamespace">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Namespace does not correspond to file location]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Namespace+does+not+correspond+to+file+location">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="ClassCanBeSealed.Global">
+    <priority>INFO</priority>
+    <name><![CDATA[Class can be made sealed(non-inheritable): Non-private accessibility]]></name>
+    <description><![CDATA[Class can be made sealed(non-inheritable): Non-private accessibility]]></description>
+  </rule>
+  <rule key="ClassCanBeSealed.Local">
+    <priority>INFO</priority>
+    <name><![CDATA[Class can be made sealed(non-inheritable): Private accessibility]]></name>
+    <description><![CDATA[Class can be made sealed(non-inheritable): Private accessibility]]></description>
+  </rule>
+  <rule key="ClassNeverInstantiated.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Class is never instantiated: Non-private accessibility]]></name>
+    <description><![CDATA[Class is never instantiated: Non-private accessibility]]></description>
+  </rule>
+  <rule key="ClassNeverInstantiated.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Class is never instantiated: Private accessibility]]></name>
+    <description><![CDATA[Class is never instantiated: Private accessibility]]></description>
+  </rule>
+  <rule key="ClassWithVirtualMembersNeverInherited.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Class with virtual(overridable) members never inherited: Non-private accessibility]]></name>
+    <description><![CDATA[Class with virtual(overridable) members never inherited: Non-private accessibility]]></description>
+  </rule>
+  <rule key="ClassWithVirtualMembersNeverInherited.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Class with virtual(overridable) members never inherited: Private accessibility]]></name>
+    <description><![CDATA[Class with virtual(overridable) members never inherited: Private accessibility]]></description>
+  </rule>
+  <rule key="CollectionNeverQueried.Global">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Collection's content is never queried: Non-private accessibility]]></name>
+    <description><![CDATA[Collection's content is never queried: Non-private accessibility]]></description>
+  </rule>
+  <rule key="CollectionNeverQueried.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Collection's content is never queried: Private accessibility]]></name>
+    <description><![CDATA[Collection's content is never queried: Private accessibility]]></description>
+  </rule>
+  <rule key="CollectionNeverUpdated.Global">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Collection is never updated: Non-private accessibility]]></name>
+    <description><![CDATA[Collection is never updated: Non-private accessibility]]></description>
+  </rule>
+  <rule key="CollectionNeverUpdated.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Collection is never updated: Private accessibility]]></name>
+    <description><![CDATA[Collection is never updated: Private accessibility]]></description>
+  </rule>
+  <rule key="CompareOfFloatsByEqualityOperator">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Compare of float numbers with equality operator]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Compare+of+float+numbers+by+equality+operator">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="ConditionIsAlwaysTrueOrFalse">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Expression is always 'true' or always 'false']]></name>
+    <description><![CDATA[Expression is always 'true' or always 'false']]></description>
+  </rule>
+  <rule key="ConditionalTernaryEqualBranch">
+    <priority>MAJOR</priority>
+    <name><![CDATA['?:' expression has identical true and false branches]]></name>
+    <description><![CDATA['?:' expression has identical true and false branches]]></description>
+  </rule>
+  <rule key="ConvertToAutoProperty">
+    <priority>MINOR</priority>
+    <name><![CDATA[Convert property to auto-property]]></name>
+    <description><![CDATA[Convert property to auto-property]]></description>
+  </rule>
+  <rule key="ConvertToConstant.Global">
+    <priority>INFO</priority>
+    <name><![CDATA[Convert local variable or field to constant: Non-private accessibility]]></name>
+    <description><![CDATA[Convert local variable or field to constant: Non-private accessibility]]></description>
+  </rule>
+  <rule key="ConvertToConstant.Local">
+    <priority>INFO</priority>
+    <name><![CDATA[Convert local variable or field to constant: Private accessibility]]></name>
+    <description><![CDATA[Convert local variable or field to constant: Private accessibility]]></description>
+  </rule>
+  <rule key="ConvertToVbAutoProperty">
+    <priority>MINOR</priority>
+    <name><![CDATA[Convert property to auto-property]]></name>
+    <description><![CDATA[Convert property to auto-property]]></description>
+  </rule>
+  <rule key="ConvertToVbAutoPropertyWhenPossible">
+    <priority>INFO</priority>
+    <name><![CDATA[Convert property to auto-property when possible]]></name>
+    <description><![CDATA[Convert property to auto-property when possible]]></description>
+  </rule>
+  <rule key="ConvertToVbAutoPropertyWithPrivateSetter">
+    <priority>INFO</priority>
+    <name><![CDATA[Convert property to auto-property with private setter]]></name>
+    <description><![CDATA[Convert property to auto-property with private setter]]></description>
+  </rule>
+  <rule key="EqualExpressionComparison">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Similar expressions comparison]]></name>
+    <description><![CDATA[Similar expressions comparison]]></description>
+  </rule>
+  <rule key="EventNeverInvoked">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Event never invoked]]></name>
+    <description><![CDATA[Event never invoked]]></description>
+  </rule>
+  <rule key="EventNeverInvoked.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Abstract or virtual(overridable) event is never invoked]]></name>
+    <description><![CDATA[Abstract or virtual(overridable) event is never invoked]]></description>
+  </rule>
+  <rule key="EventNeverSubscribedTo.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Event is never subscribed to: Non-private accessibility]]></name>
+    <description><![CDATA[Event is never subscribed to: Non-private accessibility]]></description>
+  </rule>
+  <rule key="EventNeverSubscribedTo.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Event is never subscribed to: Private accessibility]]></name>
+    <description><![CDATA[Event is never subscribed to: Private accessibility]]></description>
+  </rule>
+  <rule key="FieldCanBeMadeReadOnly.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Field can be made readonly: Non-private accessibility]]></name>
+    <description><![CDATA[Field can be made readonly: Non-private accessibility]]></description>
+  </rule>
+  <rule key="FieldCanBeMadeReadOnly.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Field can be made readonly: Private accessibility]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Field+can+be+made+read-only">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="FormatStringProblem">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String formatting method problems]]></name>
+    <description><![CDATA[String formatting method problems]]></description>
+  </rule>
+  <rule key="FunctionNeverReturns">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Function never returns]]></name>
+    <description><![CDATA[Function never returns]]></description>
+  </rule>
+  <rule key="GCSuppressFinalizeForTypeWithoutDestructor">
+    <priority>MAJOR</priority>
+    <name><![CDATA['GC.SuppressFinalize' is invoked for type without destructor]]></name>
+    <description><![CDATA['GC.SuppressFinalize' is invoked for type without destructor]]></description>
+  </rule>
+  <rule key="ImpureMethodCallOnReadonlyValueField">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Impure method is called for readonly field of value type]]></name>
+    <description><![CDATA[Impure method is called for readonly field of value type]]></description>
+  </rule>
+  <rule key="InactivePreprocessorBranch">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Inactive preprocessor branch]]></name>
+    <description><![CDATA[Inactive preprocessor branch]]></description>
+  </rule>
+  <rule key="InconsistentNaming">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Inconsistent Naming]]></name>
+    <description><![CDATA[Inconsistent Naming]]></description>
+  </rule>
+  <rule key="InvokeAsExtensionMethod">
+    <priority>MINOR</priority>
+    <name><![CDATA[Convert static method invocation to extension method call]]></name>
+    <description><![CDATA[Convert static method invocation to extension method call]]></description>
+  </rule>
+  <rule key="LocalVariableHidesMember">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Local variable hides member]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Local+variable+hides+member">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="LocalizableElement">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Element is localizable]]></name>
+    <description><![CDATA[Element is localizable]]></description>
+  </rule>
+  <rule key="LongLiteralEndingLowerL">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Long literal ending with 'l' instead of 'L']]></name>
+    <description><![CDATA[Long literal ending with 'l' instead of 'L']]></description>
+  </rule>
+  <rule key="LoopCanBeConvertedToQuery">
+    <priority>MINOR</priority>
+    <name><![CDATA[Loop can be converted into LINQ-expression]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Loop+can+be+converted+into+a+LINQ+expression">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="LoopCanBePartlyConvertedToQuery">
+    <priority>INFO</priority>
+    <name><![CDATA[Part of loop's body can be converted into LINQ-expression]]></name>
+    <description><![CDATA[Part of loop's body can be converted into LINQ-expression]]></description>
+  </rule>
+  <rule key="MemberCanBeInternal">
+    <priority>INFO</priority>
+    <name><![CDATA[Member or type can be made internal(friend)]]></name>
+    <description><![CDATA[Member or type can be made internal(friend)]]></description>
+  </rule>
+  <rule key="SuggestBaseTypeForParameter">
+    <priority>INFO</priority>
+    <name><![CDATA[Parameter can be declared with base type]]></name>
+    <description><![CDATA[Parameter can be declared with base type]]></description>
+  </rule>
+  <rule key="SuspiciousTypeConversion.Global">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Suspicious type conversion or check]]></name>
+    <description><![CDATA[Suspicious type conversion or check]]></description>
+  </rule>
+  <rule key="ThreadStaticAtInstanceField">
+    <priority>MAJOR</priority>
+    <name><![CDATA[[ThreadStatic] doesn't work with instance fields]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/%27ThreadStaticAttribute%27+usage">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="ThreadStaticFieldHasInitializer">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Thread static field has initializer]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/%27ThreadStaticAttribute%27+usage">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="TryStatementsCanBeMerged">
+    <priority>INFO</priority>
+    <name><![CDATA[try-catch and try-finally statements can be merged]]></name>
+    <description><![CDATA[try-catch and try-finally statements can be merged]]></description>
+  </rule>
+  <rule key="UnassignedField.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unassigned field]]></name>
+    <description><![CDATA[Unassigned field]]></description>
+  </rule>
+  <rule key="UnassignedField.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Unassigned field: Non-private accessibility]]></name>
+    <description><![CDATA[Unassigned field: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnassignedField.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unassigned field: Private accessibility]]></name>
+    <description><![CDATA[Unassigned field: Private accessibility]]></description>
+  </rule>
+  <rule key="UnassignedGetOnlyAutoProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Get-only auto-property is never assigned]]></name>
+    <description><![CDATA[Get-only auto-property is never assigned]]></description>
+  </rule>
+  <rule key="UnassignedReadonlyField">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unassigned readonly field]]></name>
+    <description><![CDATA[Unassigned readonly field]]></description>
+  </rule>
+  <rule key="UnassignedReadonlyField.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unassigned readonly field]]></name>
+    <description><![CDATA[Unassigned readonly field]]></description>
+  </rule>
+  <rule key="UnusedAutoPropertyAccessor.Global">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Auto-property accessor is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Auto-property accessor is never used: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedAutoPropertyAccessor.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Auto-property accessor is never used: Private accessibility]]></name>
+    <description><![CDATA[Auto-property accessor is never used: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedField.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Field is never used]]></name>
+    <description><![CDATA[Field is never used]]></description>
+  </rule>
+  <rule key="UnusedImportClause">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused import clause]]></name>
+    <description><![CDATA[Unused import clause]]></description>
+  </rule>
+  <rule key="UnusedLabel">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused label]]></name>
+    <description><![CDATA[Unused label]]></description>
+  </rule>
+  <rule key="UnusedMember.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type or member is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMember.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type or member is never used: Private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMemberHiearchy.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type member is only used in overrides: Non-private accessibility]]></name>
+    <description><![CDATA[Type member is only used in overrides: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMemberHiearchy.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type member is only used in overrides: Private accessibility]]></name>
+    <description><![CDATA[Type member is only used in overrides: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMemberInSuper.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type member is never accessed via base type: Non-private accessibility]]></name>
+    <description><![CDATA[Type member is never accessed via base type: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMemberInSuper.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type member is never accessed via base type: Private accessibility]]></name>
+    <description><![CDATA[Type member is never accessed via base type: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMethodReturnValue.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Method return value is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Method return value is never used: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedMethodReturnValue.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Method return value is never used: Private accessibility]]></name>
+    <description><![CDATA[Method return value is never used: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedParameter.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Unused parameter: Non-private accessibility]]></name>
+    <description><![CDATA[Unused parameter: Non-private accessibility]]></description>
+  </rule>
+  <rule key="UnusedParameter.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused parameter: Private accessibility]]></name>
+    <description><![CDATA[Unused parameter: Private accessibility]]></description>
+  </rule>
+  <rule key="VBCheckForReferenceEqualityInstead.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
+    <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+  </rule>
+  <rule key="VBCheckForReferenceEqualityInstead.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
+    <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+  </rule>
+  <rule key="VBErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[VB Compiler Errors]]></name>
+    <description><![CDATA[VB Compiler Errors]]></description>
+  </rule>
+  <rule key="VBPossibleMistakenArgument">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible mistaken argument: Possible mistaken argument]]></name>
+    <description><![CDATA[Possible mistaken argument: Possible mistaken argument]]></description>
+  </rule>
+  <rule key="VBPossibleMistakenCallToGetType.1">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></name>
+    <description><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></description>
+  </rule>
+  <rule key="VBPossibleMistakenCallToGetType.2">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></name>
+    <description><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></description>
+  </rule>
+  <rule key="VBRemoveToList.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Remove ToList(): Remove ToList()]]></name>
+    <description><![CDATA[Remove ToList(): Remove ToList()]]></description>
+  </rule>
+  <rule key="VBRemoveToList.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Remove ToList(): Remove ToList()]]></name>
+    <description><![CDATA[Remove ToList(): Remove ToList()]]></description>
+  </rule>
+  <rule key="VBReplaceWithFirstOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></name>
+    <description><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></description>
+  </rule>
+  <rule key="VBReplaceWithLastOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></name>
+    <description><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>(): Replace with OfType(Of ..)()]]></name>
+    <description><![CDATA[Replace with OfType<T>(): Replace with OfType(Of ..)()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>(): Replace with OfType(Of ..)()]]></name>
+    <description><![CDATA[Replace with OfType<T>(): Replace with OfType(Of ..)()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Any.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Any(): Replace with OfType(Of ..)().Any()]]></name>
+    <description><![CDATA[Replace with OfType<T>().Any(): Replace with OfType(Of ..)().Any()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Any.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Any(): Replace with OfType(Of ..)().Any(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().Any(): Replace with OfType(Of ..)().Any(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Count.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Count(): Replace with OfType(Of ..)().Count()]]></name>
+    <description><![CDATA[Replace with OfType<T>().Count(): Replace with OfType(Of ..)().Count()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Count.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Count(): Replace with OfType(Of ..)().Count(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().Count(): Replace with OfType(Of ..)().Count(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.First.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().First(): Replace with OfType(Of ..)().First()]]></name>
+    <description><![CDATA[Replace with OfType<T>().First(): Replace with OfType(Of ..)().First()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.First.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().First(): Replace with OfType(Of ..)().First(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().First(): Replace with OfType(Of ..)().First(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.FirstOrDefault.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType(Of ..)().FirstOrDefault()]]></name>
+    <description><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType(Of ..)().FirstOrDefault()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.FirstOrDefault.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType(Of ..)().FirstOrDefault(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType(Of ..)().FirstOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Last.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Last(): Replace with OfType(Of ..)().Last()]]></name>
+    <description><![CDATA[Replace with OfType<T>().Last(): Replace with OfType(Of ..)().Last()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Last.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Last(): Replace with OfType(Of ..)().Last(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().Last(): Replace with OfType(Of ..)().Last(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.LastOrDefault.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType(Of ..)().LastOrDefault()]]></name>
+    <description><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType(Of ..)().LastOrDefault()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.LastOrDefault.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType(Of ..)().LastOrDefault(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType(Of ..)().LastOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Single.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Single(): Replace with OfType(Of ..)().Single()]]></name>
+    <description><![CDATA[Replace with OfType<T>().Single(): Replace with OfType(Of ..)().Single()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Single.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Single(): Replace with OfType(Of ..)().Single(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().Single(): Replace with OfType(Of ..)().Single(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.SingleOrDefault.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType(Of ..)().SingleOrDefault()]]></name>
+    <description><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType(Of ..)().SingleOrDefault()]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.SingleOrDefault.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType(Of ..)().SingleOrDefault(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType(Of ..)().SingleOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithOfType.Where">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with OfType<T>().Where(): Replace with OfType(Of ..)().Where(..)]]></name>
+    <description><![CDATA[Replace with OfType<T>().Where(): Replace with OfType(Of ..)().Where(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleAssignment.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single assignment: Replace with single assignment]]></name>
+    <description><![CDATA[Replace with single assignment: Replace with single assignment]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleAssignment.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single assignment: Replace with single assignment]]></name>
+    <description><![CDATA[Replace with single assignment: Replace with single assignment]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToAny">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to Any(..): Replace with single call to Any(..)]]></name>
+    <description><![CDATA[Replace with single call to Any(..): Replace with single call to Any(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToCount">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to Count(..): Replace with single call to Count(..)]]></name>
+    <description><![CDATA[Replace with single call to Count(..): Replace with single call to Count(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToFirst">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to First(..): Replace with single call to First(..)]]></name>
+    <description><![CDATA[Replace with single call to First(..): Replace with single call to First(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToFirstOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to FirstOrDefault(..): Replace with single call to FirstOrDefault(..)]]></name>
+    <description><![CDATA[Replace with single call to FirstOrDefault(..): Replace with single call to FirstOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToLast">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to Last(..): Replace with single call to Last(..)]]></name>
+    <description><![CDATA[Replace with single call to Last(..): Replace with single call to Last(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToLastOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to LastOrDefault(..): Replace with single call to LastOrDefault(..)]]></name>
+    <description><![CDATA[Replace with single call to LastOrDefault(..): Replace with single call to LastOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToSingle">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to Single(..): Replace with single call to Single(..)]]></name>
+    <description><![CDATA[Replace with single call to Single(..): Replace with single call to Single(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleCallToSingleOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with single call to SingleOrDefault(..): Replace with single call to SingleOrDefault(..)]]></name>
+    <description><![CDATA[Replace with single call to SingleOrDefault(..): Replace with single call to SingleOrDefault(..)]]></description>
+  </rule>
+  <rule key="VBReplaceWithSingleOrDefault">
+    <priority>MINOR</priority>
+    <name><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></name>
+    <description><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.10">
+    <priority>INFO</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.3">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.4">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.5">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.6">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.7">
+    <priority>INFO</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.8">
+    <priority>INFO</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBSimplifyLinqExpression.9">
+    <priority>INFO</priority>
+    <name><![CDATA[Simplify expression: Simplify expression]]></name>
+    <description><![CDATA[Simplify expression: Simplify expression]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.1">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.2">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.3">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.4">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.5">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareIsCultureSpecific.6">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></name>
+    <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringCompareToIsCultureSpecific">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.CompareTo is culture-specific: String.CompareTo is culture-specific]]></name>
+    <description><![CDATA[String.CompareTo is culture-specific: String.CompareTo is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringEndsWithIsCultureSpecific">
+    <priority>INFO</priority>
+    <name><![CDATA[String.EndsWith is culture-specific: String.EndsWith(string) is culture-specific]]></name>
+    <description><![CDATA[String.EndsWith is culture-specific: String.EndsWith(string) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringIndexOfIsCultureSpecific.1">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string) is culture-specific]]></name>
+    <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringIndexOfIsCultureSpecific.2">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></name>
+    <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringIndexOfIsCultureSpecific.3">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></name>
+    <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringLastIndexOfIsCultureSpecific.1">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string) is culture-specific]]></name>
+    <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringLastIndexOfIsCultureSpecific.2">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></name>
+    <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringLastIndexOfIsCultureSpecific.3">
+    <priority>MAJOR</priority>
+    <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></name>
+    <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></description>
+  </rule>
+  <rule key="VBStringStartsWithIsCultureSpecific">
+    <priority>INFO</priority>
+    <name><![CDATA[String.StartsWith is culture-specific: String.StartsWith(string) is culture-specific]]></name>
+    <description><![CDATA[String.StartsWith is culture-specific: String.StartsWith(string) is culture-specific]]></description>
+  </rule>
+  <rule key="VBUseArrayCreationExpression.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use array creation expression: Use array creation expression]]></name>
+    <description><![CDATA[Use array creation expression: Use array creation expression]]></description>
+  </rule>
+  <rule key="VBUseArrayCreationExpression.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use array creation expression: Use array creation expression]]></name>
+    <description><![CDATA[Use array creation expression: Use array creation expression]]></description>
+  </rule>
+  <rule key="VBUseFirstInstead">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use First() instead: Use First() instead]]></name>
+    <description><![CDATA[Use First() instead: Use First() instead]]></description>
+  </rule>
+  <rule key="VBUseMethodAny.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method Any(): Use method Any()]]></name>
+    <description><![CDATA[Use method Any(): Use method Any()]]></description>
+  </rule>
+  <rule key="VBUseMethodAny.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method Any(): Use method Any()]]></name>
+    <description><![CDATA[Use method Any(): Use method Any()]]></description>
+  </rule>
+  <rule key="VBUseMethodAny.3">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method Any(): Use method Any()]]></name>
+    <description><![CDATA[Use method Any(): Use method Any()]]></description>
+  </rule>
+  <rule key="VBUseMethodAny.4">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method Any(): Use method Any()]]></name>
+    <description><![CDATA[Use method Any(): Use method Any()]]></description>
+  </rule>
+  <rule key="VBUseMethodAny.5">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method Any(): Use method Any()]]></name>
+    <description><![CDATA[Use method Any(): Use method Any()]]></description>
+  </rule>
+  <rule key="VBUseMethodIsInstanceOfType">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use method IsInstanceOfType(..): Use method IsInstanceOfType(..)]]></name>
+    <description><![CDATA[Use method IsInstanceOfType(..): Use method IsInstanceOfType(..)]]></description>
+  </rule>
+  <rule key="VBUseTypeOfIsOperator.1">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use 'TypeOf .. Is ..' operator: Use 'TypeOf .. Is ..' operator]]></name>
+    <description><![CDATA[Use 'TypeOf .. Is ..' operator: Use 'TypeOf .. Is ..' operator]]></description>
+  </rule>
+  <rule key="VBUseTypeOfIsOperator.2">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use 'TypeOf .. Is ..' operator: Use 'TypeOf .. Is ..' operator]]></name>
+    <description><![CDATA[Use 'TypeOf .. Is ..' operator: Use 'TypeOf .. Is ..' operator]]></description>
+  </rule>
+  <rule key="VBWarnings::BC40000">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC40000:Use obsolete member]]></name>
+    <description><![CDATA[BC40000:Use obsolete member]]></description>
+  </rule>
+  <rule key="VBWarnings::BC400005">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ BC400005:Member shadows an overriable member]]></name>
+    <description><![CDATA[ BC400005:Member shadows an overriable member]]></description>
+  </rule>
+  <rule key="VBWarnings::BC40008">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC40008:Use obsolete member (without message)]]></name>
+    <description><![CDATA[BC40008:Use obsolete member (without message)]]></description>
+  </rule>
+  <rule key="VBWarnings::BC40056">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC40056:Namespace or type specified in the Imports 'name' doesn't contain any public member or cannot be found]]></name>
+    <description><![CDATA[BC40056:Namespace or type specified in the Imports 'name' doesn't contain any public member or cannot be found]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42016">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42016:Runtime errors might occur when converting X to Y]]></name>
+    <description><![CDATA[BC42016:Runtime errors might occur when converting X to Y]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42025">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42025:Access of shared member through an instance]]></name>
+    <description><![CDATA[BC42025:Access of shared member through an instance]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42104">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42104:Variable is used before it has been assigned a value]]></name>
+    <description><![CDATA[BC42104:Variable is used before it has been assigned a value]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42105">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42105,BC42106,BC42107:Function doesn't return a value on all code paths]]></name>
+    <description><![CDATA[BC42105,BC42106,BC42107:Function doesn't return a value on all code paths]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42304">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42304:Syntax error in XML comment]]></name>
+    <description><![CDATA[BC42304:Syntax error in XML comment]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42309">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42309:XML comment has a tag with a 'cref' attribute that could not be resolved]]></name>
+    <description><![CDATA[BC42309:XML comment has a tag with a 'cref' attribute that could not be resolved]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42322">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42322:Runtime errors might occur when converting X to Y]]></name>
+    <description><![CDATA[BC42322:Runtime errors might occur when converting X to Y]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42349">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42349:Redundant DirectCast to the equals value type]]></name>
+    <description><![CDATA[BC42349:Redundant DirectCast to the equals value type]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42353">
+    <priority>MAJOR</priority>
+    <name><![CDATA[BC42353,BC42354,BC42355:Function doesn't return a value on all code paths]]></name>
+    <description><![CDATA[BC42353,BC42354,BC42355:Function doesn't return a value on all code paths]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42356">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ BC42356:Async method lacks 'Await' operators]]></name>
+    <description><![CDATA[ BC42356:Async method lacks 'Await' operators]]></description>
+  </rule>
+  <rule key="VBWarnings::BC42358">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ BC42358: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'Await' operator to the result of the call.]]></name>
+    <description><![CDATA[ BC42358: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'Await' operator to the result of the call.]]></description>
+  </rule>
+  <rule key="VBWarnings::WME006">
+    <priority>MAJOR</priority>
+    <name><![CDATA[WME006:Namespace should be default namespace of this project]]></name>
+    <description><![CDATA[WME006:Namespace should be default namespace of this project]]></description>
+  </rule>
+  <rule key="VbUnreachableCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unreachable code]]></name>
+    <description><![CDATA[Unreachable code]]></description>
+  </rule>
+</rules>

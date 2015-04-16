@@ -1,0 +1,132 @@
+<rules>
+  <rule key="Asp.ContentPlaceholderNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown content placeholder]]></name>
+    <description><![CDATA[Unknown content placeholder]]></description>
+  </rule>
+  <rule key="Asp.CustomPageParserFilterType">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unsupported pageParserFilterType]]></name>
+    <description><![CDATA[Unsupported pageParserFilterType]]></description>
+  </rule>
+  <rule key="Asp.DeadCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ASP.NET Dead Code]]></name>
+    <description><![CDATA[ASP.NET Dead Code]]></description>
+  </rule>
+  <rule key="Asp.Entity">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown html entity]]></name>
+    <description><![CDATA[Unknown html entity]]></description>
+  </rule>
+  <rule key="Asp.Image">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Wrong image size]]></name>
+    <description><![CDATA[Wrong image size]]></description>
+  </rule>
+  <rule key="Asp.NotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown symbol]]></name>
+    <description><![CDATA[Unknown symbol]]></description>
+  </rule>
+  <rule key="Asp.ResolveWarning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ASP.NET Resolve Warning]]></name>
+    <description><![CDATA[ASP.NET Resolve Warning]]></description>
+  </rule>
+  <rule key="Asp.SkinNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown skin]]></name>
+    <description><![CDATA[Unknown skin]]></description>
+  </rule>
+  <rule key="Asp.TagAttributeWithOptionalValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Attribute with optional value problem]]></name>
+    <description><![CDATA[Attribute with optional value problem]]></description>
+  </rule>
+  <rule key="Asp.ThemeNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown theme]]></name>
+    <description><![CDATA[Unknown theme]]></description>
+  </rule>
+  <rule key="Asp.Warning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[ASP.NET Warning]]></name>
+    <description><![CDATA[ASP.NET Warning]]></description>
+  </rule>
+  <rule key="AspErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[ASP Errors]]></name>
+    <description><![CDATA[ASP Errors]]></description>
+  </rule>
+  <rule key="AspOdsMethodReferenceResolveError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Object data source method resolve problem]]></name>
+    <description><![CDATA[Object data source method resolve problem]]></description>
+  </rule>
+  <rule key="AspUnusedRegisterDirectiveHighlighting">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused register directive]]></name>
+    <description><![CDATA[Unused register directive]]></description>
+  </rule>
+  <rule key="Asxx.PathError">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Path error]]></name>
+    <description><![CDATA[Path error]]></description>
+  </rule>
+  <rule key="AsxxErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Asxx Errors]]></name>
+    <description><![CDATA[Asxx Errors]]></description>
+  </rule>
+  <rule key="Mvc.ActionNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown action]]></name>
+    <description><![CDATA[MVC: Unknown action]]></description>
+  </rule>
+  <rule key="Mvc.AreaNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown area]]></name>
+    <description><![CDATA[MVC: Unknown area]]></description>
+  </rule>
+  <rule key="Mvc.ControllerNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown controller]]></name>
+    <description><![CDATA[MVC: Unknown controller]]></description>
+  </rule>
+  <rule key="Mvc.InvalidModelType">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Mismatch Model Type]]></name>
+    <description><![CDATA[MVC: Mismatch Model Type]]></description>
+  </rule>
+  <rule key="Mvc.MasterpageNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown masterpage]]></name>
+    <description><![CDATA[MVC: Unknown masterpage]]></description>
+  </rule>
+  <rule key="Mvc.PartialViewNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown partial view]]></name>
+    <description><![CDATA[MVC: Unknown partial view]]></description>
+  </rule>
+  <rule key="Mvc.TemplateNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown template]]></name>
+    <description><![CDATA[MVC: Unknown template]]></description>
+  </rule>
+  <rule key="Mvc.ViewNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[MVC: Unknown view]]></name>
+    <description><![CDATA[MVC: Unknown view]]></description>
+  </rule>
+  <rule key="UnusedImportClause">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused import clause]]></name>
+    <description><![CDATA[Unused import clause]]></description>
+  </rule>
+  <rule key="UnusedMember.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Type or member is never used: Non-private accessibility]]></name>
+    <description><![CDATA[Type or member is never used: Non-private accessibility]]></description>
+  </rule>
+</rules>

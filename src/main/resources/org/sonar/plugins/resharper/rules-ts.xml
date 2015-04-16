@@ -1,0 +1,117 @@
+<rules>
+  <rule key="AmdDependencyPathProblem">
+    <priority>INFO</priority>
+    <name><![CDATA[Check 'amd-dependency' the same way as require() argument]]></name>
+    <description><![CDATA[Check 'amd-dependency' the same way as require() argument]]></description>
+  </rule>
+  <rule key="AmdExternalModule">
+    <priority>MINOR</priority>
+    <name><![CDATA[AMD module may be converted to external module]]></name>
+    <description><![CDATA[AMD module may be converted to external module]]></description>
+  </rule>
+  <rule key="AssignedValueWontBeAssignedToCorrespondingField">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Parameter-property value assigned inside constructor won't be assigned to class property]]></name>
+    <description><![CDATA[Parameter-property value assigned inside constructor won't be assigned to class property]]></description>
+  </rule>
+  <rule key="Class">
+    <priority>MINOR</priority>
+    <name><![CDATA[Class emulation may be converted to class]]></name>
+    <description><![CDATA[Class emulation may be converted to class]]></description>
+  </rule>
+  <rule key="CommonJsExternalModule">
+    <priority>MINOR</priority>
+    <name><![CDATA[CommonJs module may be converted to external module]]></name>
+    <description><![CDATA[CommonJs module may be converted to external module]]></description>
+  </rule>
+  <rule key="CreateSpecializedOverload">
+    <priority>INFO</priority>
+    <name><![CDATA[String literal usage allows to create specialized overload]]></name>
+    <description><![CDATA[String literal usage allows to create specialized overload]]></description>
+  </rule>
+  <rule key="CyclicReferenceComment">
+    <priority>INFO</priority>
+    <name><![CDATA[Reference comment creates cyclic dependency]]></name>
+    <description><![CDATA[Reference comment creates cyclic dependency]]></description>
+  </rule>
+  <rule key="DoubleNegationOfBoolean">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Double negation of boolean is redundant]]></name>
+    <description><![CDATA[Double negation of boolean is redundant]]></description>
+  </rule>
+  <rule key="DuplicateReferenceComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Duplicate reference comment is redundant]]></name>
+    <description><![CDATA[Duplicate reference comment is redundant]]></description>
+  </rule>
+  <rule key="EmptyReturnValueForTypeAnnotatedFunction">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Empty return value for type-annotated function]]></name>
+    <description><![CDATA[Empty return value for type-annotated function]]></description>
+  </rule>
+  <rule key="ImplicitAnyTypeWarning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Element has implicit 'any' type]]></name>
+    <description><![CDATA[Element has implicit 'any' type]]></description>
+  </rule>
+  <rule key="InternalModule">
+    <priority>MINOR</priority>
+    <name><![CDATA[Immediately-invoked function expression may be converted to internal module]]></name>
+    <description><![CDATA[Immediately-invoked function expression may be converted to internal module]]></description>
+  </rule>
+  <rule key="Lambda">
+    <priority>MINOR</priority>
+    <name><![CDATA[Function expression may be converted to lambda expression]]></name>
+    <description><![CDATA[Function expression may be converted to lambda expression]]></description>
+  </rule>
+  <rule key="LessSpecificOverloadThanMainSignature">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Overload is less specific than the main signature]]></name>
+    <description><![CDATA[Overload is less specific than the main signature]]></description>
+  </rule>
+  <rule key="SuperCall">
+    <priority>MINOR</priority>
+    <name><![CDATA[Invocation of parent class may be converted to super call]]></name>
+    <description><![CDATA[Invocation of parent class may be converted to super call]]></description>
+  </rule>
+  <rule key="SuspiciousThisUsage">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Suspicious 'this' usage in context of local function inside class member]]></name>
+    <description><![CDATA[Suspicious 'this' usage in context of local function inside class member]]></description>
+  </rule>
+  <rule key="TernaryCanBeReplacedByItsCondition">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Ternary operator may be replaced by it's condition]]></name>
+    <description><![CDATA[Ternary operator may be replaced by it's condition]]></description>
+  </rule>
+  <rule key="TsNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Use of undeclared variable]]></name>
+    <description><![CDATA[Use of undeclared variable]]></description>
+  </rule>
+  <rule key="TsResolvedFromInaccessibleModule">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Cannot resolve, probably symbol is located in inaccessible module]]></name>
+    <description><![CDATA[Cannot resolve, probably symbol is located in inaccessible module]]></description>
+  </rule>
+  <rule key="TypeParameterHidesTypeParamFromOuterScope">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type parameter hides type parameter declared in outer scope]]></name>
+    <description><![CDATA[Type parameter hides type parameter declared in outer scope]]></description>
+  </rule>
+  <rule key="TypeScriptErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[TypeScript Compiler Errors]]></name>
+    <description><![CDATA[TypeScript Compiler Errors]]></description>
+  </rule>
+  <rule key="TypeScriptErrors">
+    <priority>MAJOR</priority>
+    <name><![CDATA[TypeScript Compiler Errors]]></name>
+    <description><![CDATA[TypeScript Compiler Errors]]></description>
+  </rule>
+  <rule key="UnusedLocalImport">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused local import]]></name>
+    <description><![CDATA[Unused local import]]></description>
+  </rule>
+</rules>

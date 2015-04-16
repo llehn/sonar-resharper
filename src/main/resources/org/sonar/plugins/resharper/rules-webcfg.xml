@@ -1,0 +1,57 @@
+<rules>
+  <rule key="Web.IgnoredPath">
+    <priority>INFO</priority>
+    <name><![CDATA[Ignored path]]></name>
+    <description><![CDATA[Ignored path]]></description>
+  </rule>
+  <rule key="Web.MappedPath">
+    <priority>INFO</priority>
+    <name><![CDATA[Mapped path]]></name>
+    <description><![CDATA[Mapped path]]></description>
+  </rule>
+  <rule key="WebConfig.ModuleQualificationResolve">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Module qualification required]]></name>
+    <description><![CDATA[Module qualification required]]></description>
+  </rule>
+  <rule key="WebConfig.RedundantAddNamespaceTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant add namespace element]]></name>
+    <description><![CDATA[Redundant add namespace element]]></description>
+  </rule>
+  <rule key="WebConfig.RedundantLocationTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant location element]]></name>
+    <description><![CDATA[Redundant location element]]></description>
+  </rule>
+  <rule key="WebConfig.TagPrefixRedundand">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant tagPrefix declaration]]></name>
+    <description><![CDATA[Redundant tagPrefix declaration]]></description>
+  </rule>
+  <rule key="WebConfig.UnusedAddTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant add element]]></name>
+    <description><![CDATA[Redundant add element]]></description>
+  </rule>
+  <rule key="WebConfig.UnusedElementDueToConfigSourceAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant element or attribute because of 'configSource' attribute]]></name>
+    <description><![CDATA[Redundant element or attribute because of 'configSource' attribute]]></description>
+  </rule>
+  <rule key="WebConfig.UnusedRemoveOrClearTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant remove or clear element]]></name>
+    <description><![CDATA[Redundant remove or clear element]]></description>
+  </rule>
+  <rule key="WebConfig.WebConfigPathWarning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Referenced path cannot be found in the website]]></name>
+    <description><![CDATA[Referenced path cannot be found in the website]]></description>
+  </rule>
+  <rule key="WebConfigErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[WebConfig Errors]]></name>
+    <description><![CDATA[WebConfig Errors]]></description>
+  </rule>
+</rules>

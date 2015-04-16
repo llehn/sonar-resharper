@@ -1,0 +1,117 @@
+<rules>
+  <rule key="CenterTagIsObsolete">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Obsolete tags and attributes: <center> is obsolete]]></name>
+    <description><![CDATA[Obsolete tags and attributes: <center> is obsolete]]></description>
+  </rule>
+  <rule key="ClearAttributeIsObsolete">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Obsolete tags and attributes: Attribute 'clear' is obsolete]]></name>
+    <description><![CDATA[Obsolete tags and attributes: Attribute 'clear' is obsolete]]></description>
+  </rule>
+  <rule key="ClearAttributeIsObsolete.All">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Obsolete tags and attributes: Attribute 'clear' is obsolete]]></name>
+    <description><![CDATA[Obsolete tags and attributes: Attribute 'clear' is obsolete]]></description>
+  </rule>
+  <rule key="DlTagContainsNonDtOrDdElements">
+    <priority>INFO</priority>
+    <name><![CDATA[Elements not allowed in context: <dl> contains elements other than <dt> or <dd> or they are unclosed]]></name>
+    <description><![CDATA[Elements not allowed in context: <dl> contains elements other than <dt> or <dd> or they are unclosed]]></description>
+  </rule>
+  <rule key="EmptyTitleTag">
+    <priority>INFO</priority>
+    <name><![CDATA[Important tags or attributes missing: Empty <title>]]></name>
+    <description><![CDATA[Important tags or attributes missing: Empty <title>]]></description>
+  </rule>
+  <rule key="Html.AttributeNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown attribute]]></name>
+    <description><![CDATA[Unknown attribute]]></description>
+  </rule>
+  <rule key="Html.AttributesQuotes">
+    <priority>INFO</priority>
+    <name><![CDATA[Wrong attribute quotes]]></name>
+    <description><![CDATA[Wrong attribute quotes]]></description>
+  </rule>
+  <rule key="Html.DeadCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Html Dead Code]]></name>
+    <description><![CDATA[Html Dead Code]]></description>
+  </rule>
+  <rule key="Html.EventNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown event]]></name>
+    <description><![CDATA[Unknown event]]></description>
+  </rule>
+  <rule key="Html.IdDuplication">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Ids duplication]]></name>
+    <description><![CDATA[Ids duplication]]></description>
+  </rule>
+  <rule key="Html.IdNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown ID]]></name>
+    <description><![CDATA[Unknown ID]]></description>
+  </rule>
+  <rule key="Html.Obsolete">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Obsolete or nonstandard element]]></name>
+    <description><![CDATA[Obsolete or nonstandard element]]></description>
+  </rule>
+  <rule key="Html.PathError">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Path error]]></name>
+    <description><![CDATA[Path error]]></description>
+  </rule>
+  <rule key="Html.TagNotClosed">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Not closed tag]]></name>
+    <description><![CDATA[Not closed tag]]></description>
+  </rule>
+  <rule key="Html.TagNotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown tag]]></name>
+    <description><![CDATA[Unknown tag]]></description>
+  </rule>
+  <rule key="Html.TagShouldBeSelfClosed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Wrong closed tag]]></name>
+    <description><![CDATA[Wrong closed tag]]></description>
+  </rule>
+  <rule key="Html.TagShouldNotBeSelfClosed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Wrong self-closed tag]]></name>
+    <description><![CDATA[Wrong self-closed tag]]></description>
+  </rule>
+  <rule key="Html.Warning">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Html Warning]]></name>
+    <description><![CDATA[Html Warning]]></description>
+  </rule>
+  <rule key="HtmlErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[HTML Errors]]></name>
+    <description><![CDATA[HTML Errors]]></description>
+  </rule>
+  <rule key="UlTagContainsNonLiElements">
+    <priority>INFO</priority>
+    <name><![CDATA[Elements not allowed in context: <ul> contains elements other than <li> or <li> is unclosed]]></name>
+    <description><![CDATA[Elements not allowed in context: <ul> contains elements other than <li> or <li> is unclosed]]></description>
+  </rule>
+  <rule key="UnclosedScript">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Script tag errors: Unclosed <script>]]></name>
+    <description><![CDATA[Script tag errors: Unclosed <script>]]></description>
+  </rule>
+  <rule key="Web.IgnoredPath">
+    <priority>INFO</priority>
+    <name><![CDATA[Ignored path]]></name>
+    <description><![CDATA[Ignored path]]></description>
+  </rule>
+  <rule key="Web.MappedPath">
+    <priority>INFO</priority>
+    <name><![CDATA[Mapped path]]></name>
+    <description><![CDATA[Mapped path]]></description>
+  </rule>
+</rules>

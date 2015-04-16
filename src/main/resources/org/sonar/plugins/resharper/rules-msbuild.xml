@@ -1,0 +1,42 @@
+<rules>
+  <rule key="BuildScriptErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Build Scripts Errors]]></name>
+    <description><![CDATA[Build Scripts Errors]]></description>
+  </rule>
+  <rule key="UknownTaskAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown task attribute]]></name>
+    <description><![CDATA[Unknown task attribute]]></description>
+  </rule>
+  <rule key="UnknownItemGroup">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown item group]]></name>
+    <description><![CDATA[Unknown item group]]></description>
+  </rule>
+  <rule key="UnknownMetadata">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown metadata]]></name>
+    <description><![CDATA[Unknown metadata]]></description>
+  </rule>
+  <rule key="UnknownOutputParameter">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown output parameter]]></name>
+    <description><![CDATA[Unknown output parameter]]></description>
+  </rule>
+  <rule key="UnknownProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown property]]></name>
+    <description><![CDATA[Unknown property]]></description>
+  </rule>
+  <rule key="UnknownTarget">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown target]]></name>
+    <description><![CDATA[Unknown target]]></description>
+  </rule>
+  <rule key="UnknownTask">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown task]]></name>
+    <description><![CDATA[Unknown task]]></description>
+  </rule>
+</rules>

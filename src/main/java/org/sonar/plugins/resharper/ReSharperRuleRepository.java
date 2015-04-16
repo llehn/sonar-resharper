@@ -23,6 +23,7 @@ import org.sonar.api.rules.Rule;
 import org.sonar.api.rules.RuleRepository;
 import org.sonar.api.rules.XMLRuleParser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ReSharperRuleRepository extends RuleRepository {
@@ -39,7 +40,23 @@ public class ReSharperRuleRepository extends RuleRepository {
 
   @Override
   public List<Rule> createRules() {
-    return xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules.xml"));
+      List<Rule> rules = new ArrayList<Rule>();
+      if(getLanguage() == "cs") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-cs.xml")));
+      }
+      else if(getLanguage() == "vbnet") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-vb.xml")));
+      }
+      else if(getLanguage() == "js") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-js.xml")));
+      }
+      else if(getLanguage() == "web") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-html.xml")));
+      }
+      else if(getLanguage() == "css") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-css.xml")));
+      }
+    return rules;
   }
 
 }

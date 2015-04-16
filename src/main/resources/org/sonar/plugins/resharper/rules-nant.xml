@@ -1,0 +1,37 @@
+<rules>
+  <rule key="InvalidAttributeValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Invalid attribute value]]></name>
+    <description><![CDATA[Invalid attribute value]]></description>
+  </rule>
+  <rule key="InvalidTaskElement">
+    <priority>INFO</priority>
+    <name><![CDATA[Invalid task element]]></name>
+    <description><![CDATA[Invalid task element]]></description>
+  </rule>
+  <rule key="TasksNotLoaded">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown tasks assembly]]></name>
+    <description><![CDATA[Unknown tasks assembly]]></description>
+  </rule>
+  <rule key="UknownTaskAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown task attribute]]></name>
+    <description><![CDATA[Unknown task attribute]]></description>
+  </rule>
+  <rule key="UnknownProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown property]]></name>
+    <description><![CDATA[Unknown property]]></description>
+  </rule>
+  <rule key="UnknownTarget">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown target]]></name>
+    <description><![CDATA[Unknown target]]></description>
+  </rule>
+  <rule key="UnknownTask">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown task]]></name>
+    <description><![CDATA[Unknown task]]></description>
+  </rule>
+</rules>

@@ -1,0 +1,7 @@
+<rules>
+  <rule key="Razor.SectionNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown Razor section]]></name>
+    <description><![CDATA[Unknown Razor section]]></description>
+  </rule>
+</rules>

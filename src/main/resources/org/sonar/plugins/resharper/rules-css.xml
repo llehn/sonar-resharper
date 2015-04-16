@@ -1,0 +1,62 @@
+<rules>
+  <rule key="CssBrowserCompatibility">
+    <priority>MAJOR</priority>
+    <name><![CDATA[CSS symbol is not compatible with a specific browser]]></name>
+    <description><![CDATA[CSS symbol is not compatible with a specific browser]]></description>
+  </rule>
+  <rule key="CssErrors">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Css Errors]]></name>
+    <description><![CDATA[Css Errors]]></description>
+  </rule>
+  <rule key="CssNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Unknown CSS symbol]]></name>
+    <description><![CDATA[Unknown CSS symbol]]></description>
+  </rule>
+  <rule key="CssObsolete">
+    <priority>MAJOR</priority>
+    <name><![CDATA[CSS symbol is obsolete]]></name>
+    <description><![CDATA[CSS symbol is obsolete]]></description>
+  </rule>
+  <rule key="CssPropertyDoesNotOverrideVendorProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Property does not override vendor-prefixed property]]></name>
+    <description><![CDATA[Property does not override vendor-prefixed property]]></description>
+  </rule>
+  <rule key="DeclarationIsEmpty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Declaration is empty]]></name>
+    <description><![CDATA[Declaration is empty]]></description>
+  </rule>
+  <rule key="HexColorValueWithAlpha">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Invalid hexadecimal value of color]]></name>
+    <description><![CDATA[Invalid hexadecimal value of color]]></description>
+  </rule>
+  <rule key="InvalidValue">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Invalid value]]></name>
+    <description><![CDATA[Invalid value]]></description>
+  </rule>
+  <rule key="SyntaxIsNotAllowed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Syntax is not allowed in specified CSS version]]></name>
+    <description><![CDATA[Syntax is not allowed in specified CSS version]]></description>
+  </rule>
+  <rule key="UnexpectedValue">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Value is unexpected]]></name>
+    <description><![CDATA[Value is unexpected]]></description>
+  </rule>
+  <rule key="UnknownCssClass">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unknown CSS class]]></name>
+    <description><![CDATA[Unknown CSS class]]></description>
+  </rule>
+  <rule key="UnknownCssVendorExtension">
+    <priority>INFO</priority>
+    <name><![CDATA[Unknown vendor-specific extension]]></name>
+    <description><![CDATA[Unknown vendor-specific extension]]></description>
+  </rule>
+</rules>
