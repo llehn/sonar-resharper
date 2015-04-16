@@ -30,6 +30,8 @@ import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperRuleRepository
 import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperSensor;
 import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperRuleRepository;
 import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperSensor;
+import org.sonar.plugins.resharper.WebReSharperProvider.WebReSharperRuleRepository;
+import org.sonar.plugins.resharper.WebReSharperProvider.WebReSharperSensor;
 
 import java.util.List;
 import java.util.Set;
@@ -47,6 +49,8 @@ public class ReSharperPluginTest {
       JsReSharperSensor.class,
       CssReSharperRuleRepository.class,
       CssReSharperSensor.class,
+      WebReSharperRuleRepository.class,
+      WebReSharperSensor.class,
       VBNetReSharperRuleRepository.class,
       VBNetReSharperSensor.class);
 
