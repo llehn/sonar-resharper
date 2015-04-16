@@ -9,6 +9,22 @@
     <name><![CDATA[Invalid task element]]></name>
     <description><![CDATA[Invalid task element]]></description>
   </rule>
+  <rule key="MissingAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Missing required attribute]]></name>
+    <description><![CDATA[Missing required attribute]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
   <rule key="TasksNotLoaded">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown tasks assembly]]></name>

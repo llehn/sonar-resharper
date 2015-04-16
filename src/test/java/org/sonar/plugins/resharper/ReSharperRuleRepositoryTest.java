@@ -30,18 +30,78 @@ import static org.fest.assertions.Assertions.assertThat;
 public class ReSharperRuleRepositoryTest {
 
   @Test
-  public void test() {
+  public void testCsRules() {
     ReSharperRuleRepository repo = new ReSharperRuleRepository(new ReSharperConfiguration("cs", "cs-resharper"), new XMLRuleParser());
     assertThat(repo.getLanguage()).isEqualTo("cs");
     assertThat(repo.getKey()).isEqualTo("cs-resharper");
 
     List<Rule> rules = repo.createRules();
-    assertThat(rules.size()).isEqualTo(221);
+    assertThat(rules.size()).isEqualTo(421);
     for (Rule rule : rules) {
       assertThat(rule.getKey()).isNotNull();
       assertThat(rule.getName()).isNotNull();
       assertThat(rule.getDescription()).isNotNull();
     }
   }
+
+    @Test
+    public void testJsRules() {
+        ReSharperRuleRepository repo = new ReSharperRuleRepository(new ReSharperConfiguration("js", "js-resharper"), new XMLRuleParser());
+        assertThat(repo.getLanguage()).isEqualTo("js");
+        assertThat(repo.getKey()).isEqualTo("js-resharper");
+
+        List<Rule> rules = repo.createRules();
+        assertThat(rules.size()).isEqualTo(94);
+        for (Rule rule : rules) {
+            assertThat(rule.getKey()).isNotNull();
+            assertThat(rule.getName()).isNotNull();
+            assertThat(rule.getDescription()).isNotNull();
+        }
+    }
+
+    @Test
+    public void testCssRules() {
+        ReSharperRuleRepository repo = new ReSharperRuleRepository(new ReSharperConfiguration("css", "css-resharper"), new XMLRuleParser());
+        assertThat(repo.getLanguage()).isEqualTo("css");
+        assertThat(repo.getKey()).isEqualTo("css-resharper");
+
+        List<Rule> rules = repo.createRules();
+        assertThat(rules.size()).isEqualTo(18);
+        for (Rule rule : rules) {
+            assertThat(rule.getKey()).isNotNull();
+            assertThat(rule.getName()).isNotNull();
+            assertThat(rule.getDescription()).isNotNull();
+        }
+    }
+
+    @Test
+    public void testVbNetRules() {
+        ReSharperRuleRepository repo = new ReSharperRuleRepository(new ReSharperConfiguration("vbnet", "vbnet-resharper"), new XMLRuleParser());
+        assertThat(repo.getLanguage()).isEqualTo("vbnet");
+        assertThat(repo.getKey()).isEqualTo("vbnet-resharper");
+
+        List<Rule> rules = repo.createRules();
+        assertThat(rules.size()).isEqualTo(237);
+        for (Rule rule : rules) {
+            assertThat(rule.getKey()).isNotNull();
+            assertThat(rule.getName()).isNotNull();
+            assertThat(rule.getDescription()).isNotNull();
+        }
+    }
+
+    @Test
+    public void testWebRules() {
+        ReSharperRuleRepository repo = new ReSharperRuleRepository(new ReSharperConfiguration("web", "web-resharper"), new XMLRuleParser());
+        assertThat(repo.getLanguage()).isEqualTo("web");
+        assertThat(repo.getKey()).isEqualTo("web-resharper");
+
+        List<Rule> rules = repo.createRules();
+        assertThat(rules.size()).isEqualTo(36);
+        for (Rule rule : rules) {
+            assertThat(rule.getKey()).isNotNull();
+            assertThat(rule.getName()).isNotNull();
+            assertThat(rule.getDescription()).isNotNull();
+        }
+    }
 
 }

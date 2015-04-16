@@ -69,6 +69,82 @@
     <name><![CDATA[Overload is less specific than the main signature]]></name>
     <description><![CDATA[Overload is less specific than the main signature]]></description>
   </rule>
+  <rule key="Method">
+    <priority>MINOR</priority>
+    <name><![CDATA[Member assigned by a function may be converted to function member]]></name>
+    <description><![CDATA[Member assigned by a function may be converted to function member]]></description>
+  </rule>
+  <rule key="MoreSpecificSignatureAfterLessSpecific">
+    <priority>MAJOR</priority>
+    <name><![CDATA[More specific signature follows less specific]]></name>
+    <description><![CDATA[More specific signature follows less specific]]></description>
+  </rule>
+  <rule key="OverloadSignatureInferring">
+    <priority>INFO</priority>
+    <name><![CDATA[Possible overloads may be inferred by function body]]></name>
+    <description><![CDATA[Possible overloads may be inferred by function body]]></description>
+  </rule>
+  <rule key="ParameterDoesntMakeAnySense">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Parameter doesn't participate in the main signature]]></name>
+    <description><![CDATA[Parameter doesn't participate in the main signature]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="RedundantComparisonWithBoolean">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Comparison of boolean with boolean value is equivalent to value or negated value]]></name>
+    <description><![CDATA[Comparison of boolean with boolean value is equivalent to value or negated value]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
+  <rule key="RedundantEmptyConstructor">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant empty constructor without parameters]]></name>
+    <description><![CDATA[Redundant empty constructor without parameters]]></description>
+  </rule>
+  <rule key="RedundantParentTypeDeclaration">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant parent type specification in extends/implements]]></name>
+    <description><![CDATA[Redundant parent type specification in extends/implements]]></description>
+  </rule>
+  <rule key="RedundantQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant qualifier]]></name>
+    <description><![CDATA[Redundant qualifier]]></description>
+  </rule>
+  <rule key="RedundantTypeCast">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type cast is redundant: expression is always of provided type]]></name>
+    <description><![CDATA[Type cast is redundant: expression is always of provided type]]></description>
+  </rule>
+  <rule key="RedundantTypeCastStructural">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Type cast is redundant: expression is of a structurally compatible type]]></name>
+    <description><![CDATA[Type cast is redundant: expression is of a structurally compatible type]]></description>
+  </rule>
+  <rule key="RedundantVariableTypeSpecification">
+    <priority>INFO</priority>
+    <name><![CDATA[Type specification is redundant, because variable type is contextually determined from the type of assigned value]]></name>
+    <description><![CDATA[Type specification is redundant, because variable type is contextually determined from the type of assigned value]]></description>
+  </rule>
+  <rule key="SameImportsWithDifferentName">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Same item is imported twice with different names]]></name>
+    <description><![CDATA[Same item is imported twice with different names]]></description>
+  </rule>
+  <rule key="SpecifyVariableTypeExplicitly">
+    <priority>INFO</priority>
+    <name><![CDATA[Type of variable may be specified explicitly]]></name>
+    <description><![CDATA[Type of variable may be specified explicitly]]></description>
+  </rule>
   <rule key="SuperCall">
     <priority>MINOR</priority>
     <name><![CDATA[Invocation of parent class may be converted to super call]]></name>
@@ -113,5 +189,20 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unused local import]]></name>
     <description><![CDATA[Unused local import]]></description>
+  </rule>
+  <rule key="UseOfPossiblyUnassignedProperty">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use of possibly unassigned property in a static initializer]]></name>
+    <description><![CDATA[Use of possibly unassigned property in a static initializer]]></description>
+  </rule>
+  <rule key="WrongPublicModifierSpecification">
+    <priority>INFO</priority>
+    <name><![CDATA[Non-compliant 'public' modifier or its absense]]></name>
+    <description><![CDATA[Non-compliant 'public' modifier or its absense]]></description>
+  </rule>
+  <rule key="WrongRequireRelativePath">
+    <priority>INFO</priority>
+    <name><![CDATA[Non-compliant path style inside 'require']]></name>
+    <description><![CDATA[Non-compliant path style inside 'require']]></description>
   </rule>
 </rules>

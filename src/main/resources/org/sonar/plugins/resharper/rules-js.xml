@@ -215,10 +215,136 @@
     <name><![CDATA[Local function is redefined later]]></name>
     <description><![CDATA[Local function is redefined later]]></description>
   </rule>
+  <rule key="MissingHasOwnPropertyInForeach">
+    <priority>MAJOR</priority>
+    <name><![CDATA[There is no .hasOwnProperty() check in a body of 'for in' loop. This will cause an enumeration of prototype properties]]></name>
+    <description><![CDATA[There is no .hasOwnProperty() check in a body of 'for in' loop. This will cause an enumeration of prototype properties]]></description>
+  </rule>
+  <rule key="MisuseOfOwnerFunctionThis">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Misuse of 'this' qualifier in inner function]]></name>
+    <description><![CDATA[Misuse of 'this' qualifier in inner function]]></description>
+  </rule>
+  <rule key="MultipleDeclarationsInForeach">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Multiple declarations in 'for in' error]]></name>
+    <description><![CDATA[Multiple declarations in 'for in' error]]></description>
+  </rule>
+  <rule key="NativeTypePrototypeExtending">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Extending prototype of native object]]></name>
+    <description><![CDATA[Extending prototype of native object]]></description>
+  </rule>
+  <rule key="NativeTypePrototypeOverwriting">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Overwriting prototype of native object]]></name>
+    <description><![CDATA[Overwriting prototype of native object]]></description>
+  </rule>
+  <rule key="NonAssignedConstant">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Non-assigned constant]]></name>
+    <description><![CDATA[Non-assigned constant]]></description>
+  </rule>
+  <rule key="NotAllPathsReturnValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Not all code paths return a value]]></name>
+    <description><![CDATA[Not all code paths return a value]]></description>
+  </rule>
+  <rule key="NotResolved">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Cannot resolve symbol]]></name>
+    <description><![CDATA[Cannot resolve symbol]]></description>
+  </rule>
+  <rule key="OctalLiteralsNotAllowedError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Octal literals and escape sequences using in 'strict mode']]></name>
+    <description><![CDATA[Octal literals and escape sequences using in 'strict mode']]></description>
+  </rule>
+  <rule key="ParameterValueIsNotUsed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Parameter value is not used]]></name>
+    <description><![CDATA[Parameter value is not used]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossiblyIncorrectlyBrokenStatement">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Statement is possibly incorrectly broken by a newline]]></name>
+    <description><![CDATA[Statement is possibly incorrectly broken by a newline]]></description>
+  </rule>
+  <rule key="PossiblyUnassignedProperty">
+    <priority>INFO</priority>
+    <name><![CDATA[Use of possibly unassigned property or global variable]]></name>
+    <description><![CDATA[Use of possibly unassigned property or global variable]]></description>
+  </rule>
+  <rule key="PropertyGetterCannotHaveParameters">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Property getter cannot have parameters]]></name>
+    <description><![CDATA[Property getter cannot have parameters]]></description>
+  </rule>
+  <rule key="PropertySetterMustHaveSingleParameter">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Property setter must have a single parameter]]></name>
+    <description><![CDATA[Property setter must have a single parameter]]></description>
+  </rule>
+  <rule key="QualifiedExpressionIsNull">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Qualifier is 'null' or 'undefined']]></name>
+    <description><![CDATA[Qualifier is 'null' or 'undefined']]></description>
+  </rule>
+  <rule key="QualifiedExpressionMaybeNull">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Qualifier can be 'null' or 'undefined']]></name>
+    <description><![CDATA[Qualifier can be 'null' or 'undefined']]></description>
+  </rule>
+  <rule key="RedundantBlock">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant block]]></name>
+    <description><![CDATA[Redundant block]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
+  <rule key="RedundantElseBlock">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant 'else' block]]></name>
+    <description><![CDATA[Redundant 'else' block]]></description>
+  </rule>
+  <rule key="RedundantEmptyFinallyBlock">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant empty finally block]]></name>
+    <description><![CDATA[Redundant empty finally block]]></description>
+  </rule>
+  <rule key="RedundantLocalFunctionName">
+    <priority>INFO</priority>
+    <name><![CDATA[Redundant local function name]]></name>
+    <description><![CDATA[Redundant local function name]]></description>
+  </rule>
+  <rule key="ReturnFromGlobalScopetWithValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Return statement with a value in the global scope]]></name>
+    <description><![CDATA[Return statement with a value in the global scope]]></description>
+  </rule>
+  <rule key="SameVariableAssignment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assignment of a local variable to itself is redundant]]></name>
+    <description><![CDATA[Assignment of a local variable to itself is redundant]]></description>
+  </rule>
   <rule key="SimilarExpressionsComparison">
     <priority>MAJOR</priority>
     <name><![CDATA[Similar expressions comparison]]></name>
     <description><![CDATA[Similar expressions comparison]]></description>
+  </rule>
+  <rule key="StatementIsNotTerminated">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Statement is not terminated with semicolon]]></name>
+    <description><![CDATA[Statement is not terminated with semicolon]]></description>
   </rule>
   <rule key="StringConcatenationToTemplateString">
     <priority>INFO</priority>
@@ -274,6 +400,71 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unused property or function]]></name>
     <description><![CDATA[Unused property or function]]></description>
+  </rule>
+  <rule key="UsageOfDefinitelyUnassignedValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Usage of unassigned local variable]]></name>
+    <description><![CDATA[Usage of unassigned local variable]]></description>
+  </rule>
+  <rule key="UsageOfPossiblyUnassignedValue">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Usage of possibly unassigned local variable]]></name>
+    <description><![CDATA[Usage of possibly unassigned local variable]]></description>
+  </rule>
+  <rule key="UseOfImplicitGlobalInFunctionScope">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use of implicitly declared global variable]]></name>
+    <description><![CDATA[Use of implicitly declared global variable]]></description>
+  </rule>
+  <rule key="UsingOfReservedWord">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Use of future reserved word]]></name>
+    <description><![CDATA[Use of future reserved word]]></description>
+  </rule>
+  <rule key="UsingOfReservedWordError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Using of future reserved keywords in 'strict mode']]></name>
+    <description><![CDATA[Using of future reserved keywords in 'strict mode']]></description>
+  </rule>
+  <rule key="VariableCanBeMadeConst">
+    <priority>INFO</priority>
+    <name><![CDATA[Variable can be made constant]]></name>
+    <description><![CDATA[Variable can be made constant]]></description>
+  </rule>
+  <rule key="VariableCanBeMadeLet">
+    <priority>INFO</priority>
+    <name><![CDATA['var' variable can be made 'let' variable]]></name>
+    <description><![CDATA['var' variable can be made 'let' variable]]></description>
+  </rule>
+  <rule key="VariableCanBeMovedToInnerBlock">
+    <priority>INFO</priority>
+    <name><![CDATA[Local variable can be safely moved to inner block]]></name>
+    <description><![CDATA[Local variable can be safely moved to inner block]]></description>
+  </rule>
+  <rule key="VariableUsedBeforeDeclared">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Variable is used before it is declared]]></name>
+    <description><![CDATA[Variable is used before it is declared]]></description>
+  </rule>
+  <rule key="VariableUsedInInnerScopeBeforeDeclared">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Variable is used in inner scope before it is declared]]></name>
+    <description><![CDATA[Variable is used in inner scope before it is declared]]></description>
+  </rule>
+  <rule key="VariableUsedOutOfScope">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Variable is used outside of scope which it is declared]]></name>
+    <description><![CDATA[Variable is used outside of scope which it is declared]]></description>
+  </rule>
+  <rule key="WithStatementUsingError">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Using of 'with' statements in 'strict mode']]></name>
+    <description><![CDATA[Using of 'with' statements in 'strict mode']]></description>
+  </rule>
+  <rule key="WrongExpressionStatement">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Suspicious expression statement]]></name>
+    <description><![CDATA[Suspicious expression statement]]></description>
   </rule>
   <rule key="XmlDocCommentSyntaxProblem">
     <priority>MAJOR</priority>

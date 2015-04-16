@@ -275,6 +275,289 @@
     <name><![CDATA[Member or type can be made internal(friend)]]></name>
     <description><![CDATA[Member or type can be made internal(friend)]]></description>
   </rule>
+  <rule key="MemberCanBeMadeStatic.Global">
+    <priority>INFO</priority>
+    <name><![CDATA[Member can be made static(shared): Non-private accessibility]]></name>
+    <description><![CDATA[Member can be made static(shared): Non-private accessibility]]></description>
+  </rule>
+  <rule key="MemberCanBeMadeStatic.Local">
+    <priority>INFO</priority>
+    <name><![CDATA[Member can be made static(shared): Private accessibility]]></name>
+    <description><![CDATA[Member can be made static(shared): Private accessibility]]></description>
+  </rule>
+  <rule key="MemberCanBePrivate.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Member can be made private: Non-private accessibility]]></name>
+    <description><![CDATA[Member can be made private: Non-private accessibility]]></description>
+  </rule>
+  <rule key="MemberCanBePrivate.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Member can be made private: Private accessibility]]></name>
+    <description><![CDATA[Member can be made private: Private accessibility]]></description>
+  </rule>
+  <rule key="MemberCanBeProtected.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Member can be made protected: Non-private accessibility]]></name>
+    <description><![CDATA[Member can be made protected: Non-private accessibility]]></description>
+  </rule>
+  <rule key="MemberCanBeProtected.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Member can be made protected: Private accessibility]]></name>
+    <description><![CDATA[Member can be made protected: Private accessibility]]></description>
+  </rule>
+  <rule key="MultipleNullableAttributesUsage">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Multiple nullable attributes usage]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Multiple+nullable+attributes+usage">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="NonReadonlyMemberInGetHashCode">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Non-readonly type member referenced in 'GetHashCode()']]></name>
+    <description><![CDATA[Non-readonly type member referenced in 'GetHashCode()']]></description>
+  </rule>
+  <rule key="NonVolatileFieldInDoubleCheckLocking">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible incorrect implementation of Double-Check Locking. Checked field must be volatile or assigned from local variable after 'Thread.MemoryBarrier()' call]]></name>
+    <description><![CDATA[Possible incorrect implementation of Double-Check Locking. Checked field must be volatile or assigned from local variable after 'Thread.MemoryBarrier()' call]]></description>
+  </rule>
+  <rule key="NotAccessedField.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Non-accessed field]]></name>
+    <description><![CDATA[Non-accessed field]]></description>
+  </rule>
+  <rule key="NotAccessedField.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Non-accessed field: Non-private accessibility]]></name>
+    <description><![CDATA[Non-accessed field: Non-private accessibility]]></description>
+  </rule>
+  <rule key="NotAccessedField.Local">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Non-accessed field: Private accessibility]]></name>
+    <description><![CDATA[Non-accessed field: Private accessibility]]></description>
+  </rule>
+  <rule key="NotAccessedVariable">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Non-accessed local variable]]></name>
+    <description><![CDATA[Non-accessed local variable]]></description>
+  </rule>
+  <rule key="NotAccessedVariable.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Non-accessed local variable]]></name>
+    <description><![CDATA[Non-accessed local variable]]></description>
+  </rule>
+  <rule key="NotAssignedOutParameter">
+    <priority>MAJOR</priority>
+    <name><![CDATA['out' parameter is not assigned upon exit]]></name>
+    <description><![CDATA['out' parameter is not assigned upon exit]]></description>
+  </rule>
+  <rule key="NotResolvedInText">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Cannot resolve symbol in text argument]]></name>
+    <description><![CDATA[Cannot resolve symbol in text argument]]></description>
+  </rule>
+  <rule key="OperatorIsCanBeUsed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Operator 'is'/'Type Of ... Is ...' can be used]]></name>
+    <description><![CDATA[Operator 'is'/'Type Of ... Is ...' can be used]]></description>
+  </rule>
+  <rule key="ParameterHidesMember">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Parameter hides member]]></name>
+    <description><![CDATA[Parameter hides member]]></description>
+  </rule>
+  <rule key="ParameterTypeCanBeEnumerable.Global">
+    <priority>INFO</priority>
+    <name><![CDATA[Parameter type can be IEnumerable<T>: Non-private accessibility]]></name>
+    <description><![CDATA[Parameter type can be IEnumerable<T>: Non-private accessibility]]></description>
+  </rule>
+  <rule key="ParameterTypeCanBeEnumerable.Local">
+    <priority>INFO</priority>
+    <name><![CDATA[Parameter type can be IEnumerable<T>: Private accessibility]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Parameter+type+can+be+IEnumerable+of+T">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossibleAssignmentToReadonlyField">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assignment to a property of a readonly field can be useless]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Assignment+to+a+property+of+a+readonly+field+can+be+useless">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossibleIntendedRethrow">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Exception rethrow possibly intended]]></name>
+    <description><![CDATA[Exception rethrow possibly intended]]></description>
+  </rule>
+  <rule key="PossibleMultipleEnumeration">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible multiple enumeration of IEnumerable]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+multiple+enumeration+of+IEnumerable">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossibleMultipleWriteAccessInDoubleCheckLocking">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible incorrect implementation of Double-Check Locking pattern. Possible multiple write access to checked field]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+multiple+write+access+in+double-checked+locking">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="PossibleWriteToMe">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible write to 'Me']]></name>
+    <description><![CDATA[Possible write to 'Me']]></description>
+  </rule>
+  <rule key="PropertyNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Cannot resolve property]]></name>
+    <description><![CDATA[Cannot resolve property]]></description>
+  </rule>
+  <rule key="PureAttributeOnVoidMethod">
+    <priority>MAJOR</priority>
+    <name><![CDATA['void' method is annotated by [Pure]]]></name>
+    <description><![CDATA['void' method is annotated by [Pure]]]></description>
+  </rule>
+  <rule key="ReadAccessInDoubleCheckLocking">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible incorrect implementation of Double-Check Locking pattern. Read access to checked field]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Read+access+in+double+checked+locking">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="RedundantArrayLowerBoundSpecification">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant array lower bound specification]]></name>
+    <description><![CDATA[Redundant array lower bound specification]]></description>
+  </rule>
+  <rule key="RedundantAssignment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Assignment is not used]]></name>
+    <description><![CDATA[Assignment is not used]]></description>
+  </rule>
+  <rule key="RedundantAttributeParentheses">
+    <priority>INFO</priority>
+    <name><![CDATA[Parentheses are redundant if attribute has no arguments]]></name>
+    <description><![CDATA[Parentheses are redundant if attribute has no arguments]]></description>
+  </rule>
+  <rule key="RedundantCast">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant cast]]></name>
+    <description><![CDATA[Redundant cast]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
+  <rule key="RedundantEmptyCaseElse">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant empty 'Case Else' statement]]></name>
+    <description><![CDATA[Redundant empty 'Case Else' statement]]></description>
+  </rule>
+  <rule key="RedundantExplicitArraySize">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant explicit size specification in array creation]]></name>
+    <description><![CDATA[Redundant explicit size specification in array creation]]></description>
+  </rule>
+  <rule key="RedundantIteratorKeyword">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Iterator function without 'Yield' statements]]></name>
+    <description><![CDATA[Iterator function without 'Yield' statements]]></description>
+  </rule>
+  <rule key="RedundantLogicalConditionalExpressionOperand">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant operand in logical conditional expression]]></name>
+    <description><![CDATA[Redundant operand in logical conditional expression]]></description>
+  </rule>
+  <rule key="RedundantMeQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant 'Me.' qualifier]]></name>
+    <description><![CDATA[Redundant 'Me.' qualifier]]></description>
+  </rule>
+  <rule key="RedundantMyBaseQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant 'MyBase.' qualifier]]></name>
+    <description><![CDATA[Redundant 'MyBase.' qualifier]]></description>
+  </rule>
+  <rule key="RedundantMyClassQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant 'MyClass.' qualifier]]></name>
+    <description><![CDATA[Redundant 'MyClass.' qualifier]]></description>
+  </rule>
+  <rule key="RedundantPropertyParentheses">
+    <priority>INFO</priority>
+    <name><![CDATA[Parameterless property parentheses are redundant]]></name>
+    <description><![CDATA[Parameterless property parentheses are redundant]]></description>
+  </rule>
+  <rule key="RedundantQualifier">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant qualifier]]></name>
+    <description><![CDATA[Redundant qualifier]]></description>
+  </rule>
+  <rule key="RedundantSetterValueParameterDeclaration">
+    <priority>INFO</priority>
+    <name><![CDATA[Explicit 'value' parameter declaration is redundant]]></name>
+    <description><![CDATA[Explicit 'value' parameter declaration is redundant]]></description>
+  </rule>
+  <rule key="ReferenceEqualsWithValueType">
+    <priority>MAJOR</priority>
+    <name><![CDATA['Object.ReferenceEquals' is always false because it is called with value type]]></name>
+    <description><![CDATA['Object.ReferenceEquals' is always false because it is called with value type]]></description>
+  </rule>
+  <rule key="ResourceItemNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Cannot resolve resource item]]></name>
+    <description><![CDATA[Cannot resolve resource item]]></description>
+  </rule>
+  <rule key="ResourceNotResolved">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Cannot resolve resource]]></name>
+    <description><![CDATA[Cannot resolve resource]]></description>
+  </rule>
+  <rule key="ReturnTypeCanBeEnumerable.Global">
+    <priority>INFO</priority>
+    <name><![CDATA[Return type can be IEnumerable<T>: Non-private accessibility]]></name>
+    <description><![CDATA[Return type can be IEnumerable<T>: Non-private accessibility]]></description>
+  </rule>
+  <rule key="ReturnTypeCanBeEnumerable.Local">
+    <priority>INFO</priority>
+    <name><![CDATA[Return type can be IEnumerable<T>: Private accessibility]]></name>
+    <description><![CDATA[Return type can be IEnumerable<T>: Private accessibility]]></description>
+  </rule>
+  <rule key="ReturnValueOfPureMethodIsNotUsed">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Return value of pure method is not used]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Return+value+of+pure+method+is+not+used">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="SimplifyConditionalOperator">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify conditional operator]]></name>
+    <description><![CDATA[Simplify conditional operator]]></description>
+  </rule>
+  <rule key="SimplifyIIf">
+    <priority>MINOR</priority>
+    <name><![CDATA[Simplify 'IIf']]></name>
+    <description><![CDATA[Simplify 'IIf']]></description>
+  </rule>
+  <rule key="SpecifyStringComparison">
+    <priority>INFO</priority>
+    <name><![CDATA[Specify string comparison explicitly]]></name>
+    <description><![CDATA[Specify string comparison explicitly]]></description>
+  </rule>
+  <rule key="StaticMemberInGenericType">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Static field or auto-property in generic type]]></name>
+    <description><![CDATA[Static field or auto-property in generic type]]></description>
+  </rule>
+  <rule key="StaticMemberInitializerReferesToMemberBelow">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Static member initializer refers to static member below or in other part]]></name>
+    <description><![CDATA[Static member initializer refers to static member below or in other part]]></description>
+  </rule>
   <rule key="SuggestBaseTypeForParameter">
     <priority>INFO</priority>
     <name><![CDATA[Parameter can be declared with base type]]></name>
@@ -406,6 +689,41 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unused parameter: Private accessibility]]></name>
     <description><![CDATA[Unused parameter: Private accessibility]]></description>
+  </rule>
+  <rule key="UnusedTypeParameter">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused type parameter]]></name>
+    <description><![CDATA[Unused type parameter]]></description>
+  </rule>
+  <rule key="UnusedVariable">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused local variable]]></name>
+    <description><![CDATA[Unused local variable]]></description>
+  </rule>
+  <rule key="UnusedVariable.Compiler">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Unused local variable]]></name>
+    <description><![CDATA[Unused local variable]]></description>
+  </rule>
+  <rule key="UseImplicitByValModifier">
+    <priority>INFO</priority>
+    <name><![CDATA[Use implicit 'ByVal' modifier]]></name>
+    <description><![CDATA[Use implicit 'ByVal' modifier]]></description>
+  </rule>
+  <rule key="UseImplicitlyTypedVariable">
+    <priority>INFO</priority>
+    <name><![CDATA[Use implicitly typed variable declaration]]></name>
+    <description><![CDATA[Use implicitly typed variable declaration]]></description>
+  </rule>
+  <rule key="UseImplicitlyTypedVariableEvident">
+    <priority>INFO</priority>
+    <name><![CDATA[Use implicitly typed variable declaration (evident)]]></name>
+    <description><![CDATA[Use implicitly typed variable declaration (evident)]]></description>
+  </rule>
+  <rule key="UseStringInterpolation">
+    <priority>MINOR</priority>
+    <name><![CDATA[Use string interpolation expression]]></name>
+    <description><![CDATA[Use string interpolation expression]]></description>
   </rule>
   <rule key="VBCheckForReferenceEqualityInstead.1">
     <priority>MINOR</priority>
@@ -871,5 +1189,15 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unreachable code]]></name>
     <description><![CDATA[Unreachable code]]></description>
+  </rule>
+  <rule key="VirtualMemberNeverOverriden.Global">
+    <priority>MINOR</priority>
+    <name><![CDATA[Virtual(overridable) member is never overridden: Non-private accessibility]]></name>
+    <description><![CDATA[Virtual(overridable) member is never overridden: Non-private accessibility]]></description>
+  </rule>
+  <rule key="VirtualMemberNeverOverriden.Local">
+    <priority>MINOR</priority>
+    <name><![CDATA[Virtual(overridable) member is never overridden: Private accessibility]]></name>
+    <description><![CDATA[Virtual(overridable) member is never overridden: Private accessibility]]></description>
   </rule>
 </rules>

@@ -4,6 +4,32 @@
     <name><![CDATA[Build Scripts Errors]]></name>
     <description><![CDATA[Build Scripts Errors]]></description>
   </rule>
+  <rule key="MissingAttribute">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Missing required attribute]]></name>
+    <description><![CDATA[Missing required attribute]]></description>
+  </rule>
+  <rule key="MultipleOutputTags">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Multiple output tags defined]]></name>
+    <description><![CDATA[Multiple output tags defined]]></description>
+  </rule>
+  <rule key="OutputTagRequired">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Output tag required]]></name>
+    <description><![CDATA[Output tag required]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
   <rule key="UknownTaskAttribute">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown task attribute]]></name>
@@ -38,5 +64,10 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown task]]></name>
     <description><![CDATA[Unknown task]]></description>
+  </rule>
+  <rule key="WrongMetadataUse">
+    <priority>INFO</priority>
+    <name><![CDATA[Wrong metadata use]]></name>
+    <description><![CDATA[Wrong metadata use]]></description>
   </rule>
 </rules>

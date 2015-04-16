@@ -94,6 +94,72 @@
     <name><![CDATA[HTML Errors]]></name>
     <description><![CDATA[HTML Errors]]></description>
   </rule>
+  <rule key="MissingAltAttributeInImgTag">
+    <priority>INFO</priority>
+    <name><![CDATA[Important tags or attributes missing: <img> should specify alternative text]]></name>
+    <description><![CDATA[Important tags or attributes missing: <img> should specify alternative text]]></description>
+  </rule>
+  <rule key="MissingBodyTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Important tags or attributes missing: Missing <body>]]></name>
+    <description><![CDATA[Important tags or attributes missing: Missing <body>]]></description>
+  </rule>
+  <rule key="MissingHeadAndBodyTags">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Important tags or attributes missing: Missing <head> and <body>]]></name>
+    <description><![CDATA[Important tags or attributes missing: Missing <head> and <body>]]></description>
+  </rule>
+  <rule key="MissingHeadTag">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Important tags or attributes missing: Missing <head>]]></name>
+    <description><![CDATA[Important tags or attributes missing: Missing <head>]]></description>
+  </rule>
+  <rule key="MissingTitleTag">
+    <priority>INFO</priority>
+    <name><![CDATA[Important tags or attributes missing: Missing <title>]]></name>
+    <description><![CDATA[Important tags or attributes missing: Missing <title>]]></description>
+  </rule>
+  <rule key="OlTagContainsNonLiElements">
+    <priority>INFO</priority>
+    <name><![CDATA[Elements not allowed in context: <ol> contains elements other than <li> or <li> is unclosed]]></name>
+    <description><![CDATA[Elements not allowed in context: <ol> contains elements other than <li> or <li> is unclosed]]></description>
+  </rule>
+  <rule key="OtherTagsInsideScript1">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Script tag errors: Other tags inside <script> - possibly unclosed <script>]]></name>
+    <description><![CDATA[Script tag errors: Other tags inside <script> - possibly unclosed <script>]]></description>
+  </rule>
+  <rule key="OtherTagsInsideScript2">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Script tag errors: Other tags inside <script> - possibly unclosed <script>]]></name>
+    <description><![CDATA[Script tag errors: Other tags inside <script> - possibly unclosed <script>]]></description>
+  </rule>
+  <rule key="OtherTagsInsideUnclosedScript">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Script tag errors: Unclosed <script> with other tags inside]]></name>
+    <description><![CDATA[Script tag errors: Unclosed <script> with other tags inside]]></description>
+  </rule>
+  <rule key="PossibleInfiniteInheritance">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Possible infinite inheritance]]></name>
+    <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See
+      JetBrains documentation.</a></p>]]></description>
+  </rule>
+  <rule key="RedundantDisableWarningComment">
+    <priority>MAJOR</priority>
+    <name><![CDATA[Redundant disable code inspection comment]]></name>
+    <description><![CDATA[Redundant disable code inspection comment]]></description>
+  </rule>
+  <rule key="ScriptTagHasBothSrcAndContentAttributes">
+    <priority>BLOCKER</priority>
+    <name><![CDATA[Script tag errors: <script> with both src and content]]></name>
+    <description><![CDATA[Script tag errors: <script> with both src and content]]></description>
+  </rule>
+  <rule key="ScriptTagWithContentBeforeIncludes">
+    <priority>INFO</priority>
+    <name><![CDATA[Script tag errors: <script> with content before included <script>]]></name>
+    <description><![CDATA[Script tag errors: <script> with content before included <script>]]></description>
+  </rule>
   <rule key="UlTagContainsNonLiElements">
     <priority>INFO</priority>
     <name><![CDATA[Elements not allowed in context: <ul> contains elements other than <li> or <li> is unclosed]]></name>
