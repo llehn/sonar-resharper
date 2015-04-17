@@ -136,6 +136,7 @@ public class ReSharperSensorTest {
     ReSharperDotSettingsWriter writer = mock(ReSharperDotSettingsWriter.class);
 
     ReSharperReportParser parser = mock(ReSharperReportParser.class);
+    when(parser.parseToolsVersion(new File(workingDir, "resharper-report.xml"))).thenReturn(ReSharperSensor.MINIMUM_TOOLS_VERSION);
     when(parser.parse(new File(workingDir, "resharper-report.xml"))).thenReturn(
       ImmutableList.of(
         new ReSharperIssue(100, "AccessToDisposedClosure", null, 1, "Dummy message"),

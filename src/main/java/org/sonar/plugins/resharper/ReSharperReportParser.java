@@ -42,6 +42,10 @@ public class ReSharperReportParser {
     return new Parser().parse(file);
   }
 
+  public String parseToolsVersion(File file) {
+    return new Parser().parseToolsVersion(file);
+  }
+
   private static class Parser {
 
     private File file;
@@ -79,6 +83,36 @@ public class ReSharperReportParser {
       return filesBuilder.build();
     }
 
+    public String parseToolsVersion(File file) {
+      this.file = file;
+
+      InputStreamReader reader = null;
+      XMLInputFactory xmlFactory = XMLInputFactory.newInstance();
+
+      try {
+        reader = new InputStreamReader(new FileInputStream(file), Charsets.UTF_8);
+        stream = xmlFactory.createXMLStreamReader(reader);
+
+        while (stream.hasNext()) {
+          if (stream.next() == XMLStreamConstants.START_ELEMENT) {
+            String tagName = stream.getLocalName();
+            if("Report".equals(tagName)) {
+              return extractToolsVersion();
+            }
+          }
+        }
+      } catch (IOException e) {
+        throw Throwables.propagate(e);
+      } catch (XMLStreamException e) {
+        throw Throwables.propagate(e);
+      } finally {
+        closeXmlStream();
+        Closeables.closeQuietly(reader);
+      }
+
+      return "0.0";
+    }
+
     private void closeXmlStream() {
       if (stream != null) {
         try {
@@ -95,6 +129,10 @@ public class ReSharperReportParser {
       Integer line = getIntAttribute("Line");
       String message = getRequiredAttribute("Message");
       filesBuilder.add(new ReSharperIssue(stream.getLocation().getLineNumber(), typeId, filePath, line, message));
+    }
+
+    private String extractToolsVersion() {
+      return getRequiredAttribute("ToolsVersion");
     }
 
     private String getRequiredAttribute(String name) {
