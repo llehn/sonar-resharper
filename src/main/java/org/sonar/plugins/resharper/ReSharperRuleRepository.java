@@ -50,6 +50,9 @@ public class ReSharperRuleRepository extends RuleRepository {
       else if(getLanguage() == "js") {
           rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-js.xml")));
       }
+      else if(getLanguage() == "ts") {
+          rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-ts.xml")));
+      }
       else if(getLanguage() == "web") {
           rules.addAll(xmlRuleParser.parse(getClass().getResourceAsStream("/org/sonar/plugins/resharper/rules-html.xml")));
       }
