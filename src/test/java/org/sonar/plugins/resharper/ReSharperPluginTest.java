@@ -28,6 +28,8 @@ import org.sonar.plugins.resharper.VBNetReSharperProvider.VBNetReSharperRuleRepo
 import org.sonar.plugins.resharper.VBNetReSharperProvider.VBNetReSharperSensor;
 import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperRuleRepository;
 import org.sonar.plugins.resharper.JsReSharperProvider.JsReSharperSensor;
+import org.sonar.plugins.resharper.TsReSharperProvider.TsReSharperRuleRepository;
+import org.sonar.plugins.resharper.TsReSharperProvider.TsReSharperSensor;
 import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperRuleRepository;
 import org.sonar.plugins.resharper.CssReSharperProvider.CssReSharperSensor;
 import org.sonar.plugins.resharper.WebReSharperProvider.WebReSharperRuleRepository;
@@ -49,8 +51,6 @@ public class ReSharperPluginTest {
       JsReSharperSensor.class,
       CssReSharperRuleRepository.class,
       CssReSharperSensor.class,
-      WebReSharperRuleRepository.class,
-      WebReSharperSensor.class,
       VBNetReSharperRuleRepository.class,
       VBNetReSharperSensor.class);
 

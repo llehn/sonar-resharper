@@ -42,6 +42,9 @@ public class ReSharperDotSettingsWriter {
       appendLine(sb, "  <s:String x:Key=\"/Default/CodeInspection/Highlighting/InspectionSeverities/=" + escapedRuleKey + "/@EntryIndexedValue\">WARNING</s:String>");
     }
 
+    appendLine(sb, "  <s:Boolean x:Key=\"/Default/CodeInspection/ExcludedFiles/FileMasksToSkip/=_002A_002Ejs/@EntryIndexedValue\">True</s:Boolean>");
+	appendLine(sb, "  <s:Boolean x:Key=\"/Default/CodeInspection/ExcludedFiles/FileMasksToSkip/=_002A_002Ets/@EntryIndexedValue\">True</s:Boolean>");
+    
     appendLine(sb, "</wpf:ResourceDictionary>");
 
     try {

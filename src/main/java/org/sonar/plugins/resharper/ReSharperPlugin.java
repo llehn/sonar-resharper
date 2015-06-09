@@ -48,7 +48,6 @@ public class ReSharperPlugin extends SonarPlugin {
     builder.addAll(CSharpReSharperProvider.extensions());
     builder.addAll(JsReSharperProvider.extensions());
     builder.addAll(CssReSharperProvider.extensions());
-    builder.addAll(WebReSharperProvider.extensions());
     builder.addAll(VBNetReSharperProvider.extensions());
 
     builder.addAll(pluginProperties());
